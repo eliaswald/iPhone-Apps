@@ -1,0 +1,83 @@
+// !$*UTF8*$!
+{
+	13FDEE5A139862D7004ABE97 /* ControlTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ControlTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	13FDEE5E139862F5004ABE97 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	13FDEE5F139862F5004ABE97 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1D6058900D05DD3D006BFB54 /* ControlTest */ = {
+		activeExec = 0;
+		executables = (
+			13FDEE5A139862D7004ABE97 /* ControlTest */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* ControlTestViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 661}}";
+			sepNavSelRange = "{329, 0}";
+			sepNavVisRange = "{0, 423}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* ControlTestViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 819}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1262}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 13FDEE5A139862D7004ABE97 /* ControlTest */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ControlTest */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ControlTest */,
+		);
+		codeSenseManager = 13FDEE5F139862F5004ABE97 /* Code sense */;
+		executables = (
+			13FDEE5A139862D7004ABE97 /* ControlTest */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 328753879;
+			PBXWorkspaceStateSaveDate = 328753879;
+		};
+		sourceControlManager = 13FDEE5E139862F5004ABE97 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
