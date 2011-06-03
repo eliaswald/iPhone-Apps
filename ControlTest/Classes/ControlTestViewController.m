@@ -10,7 +10,7 @@
 #import "fAPI.h"
 
 @implementation ControlTestViewController
-@synthesize cityField, stateField, sliderLabel, leftSwitch, rightSwitch, switchView, doSomethingButton;
+@synthesize cityField, stateField, /*sliderLabel, leftSwitch, rightSwitch, switchView,*/ doSomethingButton, scrollView;
 
 - (IBAction)buttonClicked:(id)sender
 {
@@ -31,23 +31,26 @@
 		placesNearCity = [myfAPI getPlacesByCity:cityField.text province:stateField.text error:nil];
 		for (int i = 0; i<[placesNearCity count]; i++) {
 			placeInput = [placesNearCity objectAtIndex:i];
-			place = [placeInput.name stringByAppendingString:@"\n"];;
+			place = [placeInput.name stringByAppendingString:@"\n"];
 			msg = [msg stringByAppendingString:place];
 		}
 		
 		NSString *title = [[NSString alloc] initWithFormat:@"Places near %@", cityField.text];
 		
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:msg delegate:nil cancelButtonTitle:@"Done" otherButtonTitles:nil];
-		[alert show];
+		title = [title stringByAppendingString:@"\n"];
+		title = [title stringByAppendingString:msg];
+		
+		scrollView.text = title;
+		
+		[fAPI dealloc];
+		[title release];
 		[place release];
-		[myfAPI release];
-		[placeInput release];
-		[placesNearCity release];
-		[alert release];
 		[msg release];
+		[placeInput dealloc];
+		[placesNearCity dealloc];
 	}
 }
-
+/*
 - (IBAction)switchChanged:(id)sender
 {
 	UISwitch *whichSwitch = (UISwitch *)sender;
@@ -78,7 +81,7 @@
 	sliderLabel.text = newText;
 	[newText release];
 }
-
+*/
 - (IBAction)textFieldDoneEditing:(id)sender
 {
 	[sender resignFirstResponder];
@@ -125,12 +128,17 @@
  */
 
 
-/*
  // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
  - (void)viewDidLoad {
- [super viewDidLoad];
+	 UIImage *buttonImageNormal = [UIImage imageNamed:@"whiteButton.png"];
+	 UIImage *stretchableButtonImageNormal = [buttonImageNormal stretchableImageWithLeftCapWidth:12 topCapHeight:0];
+	 [doSomethingButton setBackgroundImage:stretchableButtonImageNormal forState:UIControlStateNormal];
+	 
+	 UIImage *buttonImagePressed = [UIImage imageNamed:@"blueButton.png"];
+	 UIImage *stretchableButtonImagePressed = [buttonImagePressed stretchableImageWithLeftCapWidth:12 topCapHeight:0];
+	 [doSomethingButton setBackgroundImage:stretchableButtonImagePressed forState:UIControlStateHighlighted];
+	 [super viewDidLoad];
  }
- */
 
 
 /*

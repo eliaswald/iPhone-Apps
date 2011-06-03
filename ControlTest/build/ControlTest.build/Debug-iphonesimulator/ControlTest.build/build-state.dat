@@ -1,12 +1,14 @@
 TControlTest
 v7
 r0
-t328821178.059013
+t328825011.928333
 cCheck dependencies
 cProcessInfoPlistFile /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/Info.plist ControlTest-Info.plist
 cCompileXIB /Users/eliaswald/Documents/Xcode/ControlTest/MainWindow.xib
 cCompileXIB /Users/eliaswald/Documents/Xcode/ControlTest/ControlTestViewController.xib
 cCpResource build/Debug-iphonesimulator/ControlTest.app/441845_MWUploadFwix.jpeg 441845_MWUploadFwix.jpeg
+cCpResource build/Debug-iphonesimulator/ControlTest.app/whiteButton.png whiteButton.png
+cCpResource build/Debug-iphonesimulator/ControlTest.app/blueButton.png blueButton.png
 cProcessPCH /var/folders/79/79Tu8mj2FG0tYIi0WueUQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ControlTest_Prefix-ddhmkzyyuosgjtgotekynhmboaqp/ControlTest_Prefix.pch.gch ControlTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/main.o /Users/eliaswald/Documents/Xcode/ControlTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/ControlTestAppDelegate.o /Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -76,15 +78,15 @@ i"ControlTestAppDelegate.h"
 i"ControlTestViewController.h"
 
 N/Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestViewController.h
-c000000004DE92C800000000000000479
-t1307126912
-s1145
+c000000004DE93F9100000000000004DD
+t1307131793
+s1245
 i<UIKit/UIKit.h>
 
 N/Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestViewController.m
-c000000004DE932390000000000000F25
-t1307128377
-s3877
+c000000004DE94132000000000000115F
+t1307132210
+s4447
 i"ControlTestViewController.h"
 i"fAPI.h"
 
@@ -255,9 +257,9 @@ s1250
 i"fRange.h"
 
 N/Users/eliaswald/Documents/Xcode/ControlTest/ControlTestViewController.xib
-c000000004DE928CA000000000000C11D
-t1307125962
-s49437
+c000000004DE9403A00000000000092AC
+t1307131962
+s37548
 
 N/Users/eliaswald/Documents/Xcode/ControlTest/ControlTest_Prefix.pch
 c000000004DE82B5700000000000000BF
@@ -271,18 +273,23 @@ c000000004DE82B570000000000004E59
 t1307061079
 s20057
 
+N/Users/eliaswald/Documents/Xcode/ControlTest/blueButton.png
+c0000000049FA2DB400000000000005BC
+t1241132468
+s1468
+
 N/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/ControlTest.LinkFileList
 c000000004DE91F9C000000000000085F
 t1307123612
 s2143
 
 N/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/ControlTestAppDelegate.o
-t1307126914
-s51416
+t1307131799
+s52068
 
 N/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/ControlTestViewController.o
-t1307128378
-s66840
+t1307132211
+s59812
 
 N/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/NSObject+SBJSON.o
 t1307123614
@@ -337,11 +344,11 @@ t1307123613
 s6316
 
 N/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app
-t1307128378
-s272
+t1307132211
+s340
 
 N/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app.dSYM
-t1307128378
+t1307132211
 s102
 
 N/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/441845_MWUploadFwix.jpeg
@@ -349,12 +356,12 @@ t1307123612
 s5475
 
 N/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTest
-t1307128378
-s114528
+t1307132211
+s112968
 
 N/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTestViewController.nib
-t1307126852
-s4612
+t1307132054
+s3407
 
 N/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/Info.plist
 t1307123612
@@ -368,11 +375,24 @@ N/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/Contro
 t1307123612
 s8
 
+N/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/blueButton.png
+t1307131187
+s1468
+
+N/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/whiteButton.png
+t1307131187
+s1430
+
 N/Users/eliaswald/Documents/Xcode/ControlTest/main.m
 c000000004DE82B570000000000000169
 t1307061079
 s361
 i<UIKit/UIKit.h>
+
+N/Users/eliaswald/Documents/Xcode/ControlTest/whiteButton.png
+c0000000049FA2DB40000000000000596
+t1241132468
+s1430
 
 N/var/folders/79/79Tu8mj2FG0tYIi0WueUQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ControlTest_Prefix-ddhmkzyyuosgjtgotekynhmboaqp/ControlTest_Prefix.pch.gch
 t1307123613
@@ -385,11 +405,11 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies328821177#328821177#0(0"0(0#1#0"8632283232#0"0#
+lSLF07#2@18"Check dependencies328825011#328825011#0(0"0(0#1#0"8611500576#0"0#
 
 CCompileC build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/ControlTestAppDelegate.o /Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s328819714.278535
-e328819714.351621
+s328824599.280791
+e328824599.355384
 r1
 xCompileC
 xbuild/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/ControlTestAppDelegate.o
@@ -398,11 +418,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestAppDelegate.m328819714#328819714#0(0"0(0#0#77"/Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestAppDelegate.m8630516256#2104"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-generated-files.hmap -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-own-target-headers.hmap -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-all-target-headers.hmap -iquote /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-project-headers.hmap -F/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator -I/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/include -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/DerivedSources/i386 -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/DerivedSources -include /var/folders/79/79Tu8mj2FG0tYIi0WueUQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ControlTest_Prefix-ddhmkzyyuosgjtgotekynhmboaqp/ControlTest_Prefix.pch -c /Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestAppDelegate.m -o /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/ControlTestAppDelegate.o0#
+lSLF07#2@85"Compile /Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestAppDelegate.m328824599#328824599#0(0"0(0#0#77"/Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestAppDelegate.m8609751616#2104"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-generated-files.hmap -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-own-target-headers.hmap -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-all-target-headers.hmap -iquote /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-project-headers.hmap -F/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator -I/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/include -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/DerivedSources/i386 -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/DerivedSources -include /var/folders/79/79Tu8mj2FG0tYIi0WueUQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ControlTest_Prefix-ddhmkzyyuosgjtgotekynhmboaqp/ControlTest_Prefix.pch -c /Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestAppDelegate.m -o /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/ControlTestAppDelegate.o0#
 
 CCompileC build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/ControlTestViewController.o /Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s328821177.638895
-e328821178.003927
+s328825011.744145
+e328825011.866936
 r1
 xCompileC
 xbuild/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/ControlTestViewController.o
@@ -411,7 +431,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestViewController.m328821177#328821178#0(0"0(0#0#80"/Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestViewController.m8648971136#2110"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-generated-files.hmap -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-own-target-headers.hmap -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-all-target-headers.hmap -iquote /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-project-headers.hmap -F/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator -I/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/include -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/DerivedSources/i386 -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/DerivedSources -include /var/folders/79/79Tu8mj2FG0tYIi0WueUQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ControlTest_Prefix-ddhmkzyyuosgjtgotekynhmboaqp/ControlTest_Prefix.pch -c /Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestViewController.m -o /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/ControlTestViewController.o0#
+lSLF07#2@88"Compile /Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestViewController.m328825011#328825011#0(0"0(0#0#80"/Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestViewController.m8609630880#2110"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-generated-files.hmap -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-own-target-headers.hmap -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-all-target-headers.hmap -iquote /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-project-headers.hmap -F/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator -I/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/include -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/DerivedSources/i386 -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/DerivedSources -include /var/folders/79/79Tu8mj2FG0tYIi0WueUQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ControlTest_Prefix-ddhmkzyyuosgjtgotekynhmboaqp/ControlTest_Prefix.pch -c /Users/eliaswald/Documents/Xcode/ControlTest/Classes/ControlTestViewController.m -o /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/ControlTestViewController.o0#
 
 CCompileC build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/NSObject+SBJSON.o /Users/eliaswald/Documents/Xcode/ControlTest/Classes/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s328816413.981589
@@ -583,12 +603,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@59"Compile /Users/eliaswald/Documents/Xcode/ControlTest/main.m328816413#328816413#0(0"0(0#0#51"/Users/eliaswald/Documents/Xcode/ControlTest/main.m8643266848#2060"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-generated-files.hmap -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-own-target-headers.hmap -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-all-target-headers.hmap -iquote /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-project-headers.hmap -F/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator -I/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/include -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/DerivedSources/i386 -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/DerivedSources -include /var/folders/79/79Tu8mj2FG0tYIi0WueUQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ControlTest_Prefix-ddhmkzyyuosgjtgotekynhmboaqp/ControlTest_Prefix.pch -c /Users/eliaswald/Documents/Xcode/ControlTest/main.m -o /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/eliaswald/Documents/Xcode/ControlTest/ControlTestViewController.xib
-s328819652.516336
-e328819653.028971
+s328824854.414449
+e328824854.883187
 r1
 xCompileXIB
 x/Users/eliaswald/Documents/Xcode/ControlTest/ControlTestViewController.xib
-lSLF07#2@40"CompileXIB ControlTestViewController.xib328819652#328819653#0(0"0(0#0#74"/Users/eliaswald/Documents/Xcode/ControlTest/ControlTestViewController.xib8632524672#622"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTestViewController.nib /Users/eliaswald/Documents/Xcode/ControlTest/ControlTestViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@40"CompileXIB ControlTestViewController.xib328824854#328824854#0(0"0(0#0#74"/Users/eliaswald/Documents/Xcode/ControlTest/ControlTestViewController.xib8611893824#622"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTestViewController.nib /Users/eliaswald/Documents/Xcode/ControlTest/ControlTestViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/eliaswald/Documents/Xcode/ControlTest/MainWindow.xib
 s328816412.371102
@@ -607,24 +627,42 @@ xbuild/Debug-iphonesimulator/ControlTest.app/441845_MWUploadFwix.jpeg
 x441845_MWUploadFwix.jpeg
 lSLF07#2@29"Copy 441845_MWUploadFwix.jpeg328816412#328816412#0(0"0(0#0#69"/Users/eliaswald/Documents/Xcode/ControlTest/441845_MWUploadFwix.jpeg8625504352#504"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/eliaswald/Documents/Xcode/ControlTest/441845_MWUploadFwix.jpeg /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app0#
 
+CCpResource build/Debug-iphonesimulator/ControlTest.app/blueButton.png blueButton.png
+s328823987.006700
+e328823987.012462
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ControlTest.app/blueButton.png
+xblueButton.png
+lSLF07#2@19"Copy blueButton.png328823987#328823987#0(0"0(0#0#59"/Users/eliaswald/Documents/Xcode/ControlTest/blueButton.png8649645760#494"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/eliaswald/Documents/Xcode/ControlTest/blueButton.png /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app0#
+
+CCpResource build/Debug-iphonesimulator/ControlTest.app/whiteButton.png whiteButton.png
+s328823987.006050
+e328823987.012121
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ControlTest.app/whiteButton.png
+xwhiteButton.png
+lSLF07#2@20"Copy whiteButton.png328823987#328823987#0(0"0(0#0#60"/Users/eliaswald/Documents/Xcode/ControlTest/whiteButton.png8649843424#495"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/eliaswald/Documents/Xcode/ControlTest/whiteButton.png /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app0#
+
 CGenerateDSYMFile /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app.dSYM /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTest
-s328821178.036075
-e328821178.056348
+s328825011.903347
+e328825011.925704
 r1
 xGenerateDSYMFile
 x/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app.dSYM
 x/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTest
-lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/ControlTest.app.dSYM build/Debug-iphonesimulator/ControlTest.app/ControlTest328821178#328821178#0(0"0(0#0#100"/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTest8649650048#413"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTest -o /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app.dSYM0#
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/ControlTest.app.dSYM build/Debug-iphonesimulator/ControlTest.app/ControlTest328825011#328825011#0(0"0(0#0#100"/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTest8611161632#413"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTest -o /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app.dSYM0#
 
 CLd /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTest normal i386
-s328821178.004018
-e328821178.035923
+s328825011.867024
+e328825011.903239
 r1
 xLd
 x/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTest
 xnormal
 xi386
-lSLF07#2@105"Link /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTest328821178#328821178#0(0"0(0#0#0"8599669184#950"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator -F/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator -filelist /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/ControlTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTest0#
+lSLF07#2@105"Link /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTest328825011#328825011#0(0"0(0#0#0"8611872672#950"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator -F/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator -filelist /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/Objects-normal/i386/ControlTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/ControlTest0#
 
 CProcessInfoPlistFile /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app/Info.plist ControlTest-Info.plist
 s328816412.367773
@@ -649,10 +687,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@33"Precompile ControlTest_Prefix.pch328816412#328816413#0(0"0(0#0#67"/Users/eliaswald/Documents/Xcode/ControlTest/ControlTest_Prefix.pch8632784960#1942"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-generated-files.hmap -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-own-target-headers.hmap -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-all-target-headers.hmap -iquote /Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/ControlTest-project-headers.hmap -F/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator -I/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/include -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/DerivedSources/i386 -I/Users/eliaswald/Documents/Xcode/ControlTest/build/ControlTest.build/Debug-iphonesimulator/ControlTest.build/DerivedSources -c /Users/eliaswald/Documents/Xcode/ControlTest/ControlTest_Prefix.pch -o /var/folders/79/79Tu8mj2FG0tYIi0WueUQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ControlTest_Prefix-ddhmkzyyuosgjtgotekynhmboaqp/ControlTest_Prefix.pch.gch0#
 
 CTouch /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app
-s328821178.056445
-e328821178.058970
+s328825011.925788
+e328825011.928287
 r1
 xTouch
 x/Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app
-lSLF07#2@94"Touch /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app328821178#328821178#0(0"0(0#0#0"8649634944#294"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app0#
+lSLF07#2@94"Touch /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app328825011#328825011#0(0"0(0#0#0"8610860800#294"    cd /Users/eliaswald/Documents/Xcode/ControlTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/eliaswald/Documents/Xcode/ControlTest/build/Debug-iphonesimulator/ControlTest.app0#
 
