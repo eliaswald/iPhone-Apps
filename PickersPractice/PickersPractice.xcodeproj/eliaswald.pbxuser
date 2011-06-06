@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	130A4497139D504200AD1246 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickersPracticeAppDelegate.m */;
+		name = "PickersPracticeAppDelegate.m: 77";
+		rLen = 0;
+		rLoc = 2568;
+		rType = 0;
+		vrLen = 1916;
+		vrLoc = 698;
+	};
+	13EE11341399BBF1008042AE /* PickersPractice */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PickersPractice;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	13EE113B1399BC0A008042AE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	13EE113C1399BC0A008042AE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	13EE11421399BC4E008042AE /* SingleComponentPickerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 661}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 270}";
+		};
+	};
+	13EE11481399BC6D008042AE /* DependentComponentPickerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 661}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 276}";
+		};
+	};
+	13EE114B1399BC80008042AE /* DoubleComponentPickerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 661}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 270}";
+		};
+	};
+	13EE114E1399BC89008042AE /* CustomPickerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 661}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 252}";
+		};
+	};
+	13EE11551399BD10008042AE /* DatePickerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 661}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 248}";
+		};
+	};
+	13EE11561399BD10008042AE /* DatePickerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 858}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1402}";
+		};
+	};
+	13EE11691399C066008042AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 13EE11421399BC4E008042AE /* SingleComponentPickerViewController.h */;
+		name = "SingleComponentPickerViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 270;
+		vrLoc = 0;
+	};
+	13EE116A1399C066008042AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 13EE11481399BC6D008042AE /* DependentComponentPickerViewController.h */;
+		name = "DependentComponentPickerViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 276;
+		vrLoc = 0;
+	};
+	13EE116B1399C066008042AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 13EE114B1399BC80008042AE /* DoubleComponentPickerViewController.h */;
+		name = "DoubleComponentPickerViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 270;
+		vrLoc = 0;
+	};
+	13EE116C1399C066008042AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 13EE114E1399BC89008042AE /* CustomPickerViewController.h */;
+		name = "CustomPickerViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 252;
+		vrLoc = 0;
+	};
+	13EE116D1399C066008042AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 13EE11551399BD10008042AE /* DatePickerViewController.h */;
+		name = "DatePickerViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
+	13EE116E1399C066008042AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 13EE11561399BD10008042AE /* DatePickerViewController.m */;
+		name = "DatePickerViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1402;
+		vrLoc = 0;
+	};
+	13EE116F1399C066008042AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* PickersPracticeAppDelegate.h */;
+		name = "PickersPracticeAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 477;
+		vrLoc = 0;
+	};
+	13EE11711399C066008042AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickersPracticeAppDelegate.m */;
+		name = "PickersPracticeAppDelegate.m: 77";
+		rLen = 0;
+		rLoc = 2568;
+		rType = 0;
+		vrLen = 1916;
+		vrLoc = 698;
+	};
+	1D3623240D0F684500981E51 /* PickersPracticeAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 661}}";
+			sepNavSelRange = "{470, 0}";
+			sepNavVisRange = "{0, 477}";
+		};
+	};
+	1D3623250D0F684500981E51 /* PickersPracticeAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1092}}";
+			sepNavSelRange = "{2568, 0}";
+			sepNavVisRange = "{698, 1916}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* PickersPractice */ = {
+		activeExec = 0;
+		executables = (
+			13EE11341399BBF1008042AE /* PickersPractice */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 13EE11341399BBF1008042AE /* PickersPractice */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* PickersPractice */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* PickersPractice */,
+		);
+		codeSenseManager = 13EE113C1399BC0A008042AE /* Code sense */;
+		executables = (
+			13EE11341399BBF1008042AE /* PickersPractice */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1192,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 329076584;
+			PBXWorkspaceStateSaveDate = 329076584;
+		};
+		perUserProjectItems = {
+			130A4497139D504200AD1246 /* PBXTextBookmark */ = 130A4497139D504200AD1246 /* PBXTextBookmark */;
+			13EE11691399C066008042AE /* PBXTextBookmark */ = 13EE11691399C066008042AE /* PBXTextBookmark */;
+			13EE116A1399C066008042AE /* PBXTextBookmark */ = 13EE116A1399C066008042AE /* PBXTextBookmark */;
+			13EE116B1399C066008042AE /* PBXTextBookmark */ = 13EE116B1399C066008042AE /* PBXTextBookmark */;
+			13EE116C1399C066008042AE /* PBXTextBookmark */ = 13EE116C1399C066008042AE /* PBXTextBookmark */;
+			13EE116D1399C066008042AE /* PBXTextBookmark */ = 13EE116D1399C066008042AE /* PBXTextBookmark */;
+			13EE116E1399C066008042AE /* PBXTextBookmark */ = 13EE116E1399C066008042AE /* PBXTextBookmark */;
+			13EE116F1399C066008042AE /* PBXTextBookmark */ = 13EE116F1399C066008042AE /* PBXTextBookmark */;
+			13EE11711399C066008042AE /* PBXTextBookmark */ = 13EE11711399C066008042AE /* PBXTextBookmark */;
+		};
+		sourceControlManager = 13EE113B1399BC0A008042AE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
