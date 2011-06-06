@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13A7D59B139D9AAE002A1F51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A7D59A139D9AAE002A1F51 /* UIKit.framework */; };
+		13A7D59D139D9AAE002A1F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A7D59C139D9AAE002A1F51 /* Foundation.framework */; };
+		13A7D59F139D9AAE002A1F51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A7D59E139D9AAE002A1F51 /* CoreGraphics.framework */; };
+		13A7D5A5139D9AAE002A1F51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13A7D5A3139D9AAE002A1F51 /* InfoPlist.strings */; };
+		13A7D5A8139D9AAE002A1F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A7D5A7139D9AAE002A1F51 /* main.m */; };
+		13A7D5AB139D9AAE002A1F51 /* SimpleTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A7D5AA139D9AAE002A1F51 /* SimpleTableAppDelegate.m */; };
+		13A7D5AE139D9AAE002A1F51 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A7D5AC139D9AAE002A1F51 /* MainWindow.xib */; };
+		13A7D5B1139D9AAE002A1F51 /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A7D5B0139D9AAE002A1F51 /* SimpleTableViewController.m */; };
+		13A7D5B4139D9AAE002A1F51 /* SimpleTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A7D5B2139D9AAE002A1F51 /* SimpleTableViewController.xib */; };
+		13A7D5BB139D9AAE002A1F51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A7D59A139D9AAE002A1F51 /* UIKit.framework */; };
+		13A7D5BC139D9AAE002A1F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A7D59C139D9AAE002A1F51 /* Foundation.framework */; };
+		13A7D5BD139D9AAE002A1F51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A7D59E139D9AAE002A1F51 /* CoreGraphics.framework */; };
+		13A7D5C5139D9AAE002A1F51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13A7D5C3139D9AAE002A1F51 /* InfoPlist.strings */; };
+		13A7D5C8139D9AAE002A1F51 /* SimpleTableTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 13A7D5C7139D9AAE002A1F51 /* SimpleTableTests.h */; };
+		13A7D5CA139D9AAE002A1F51 /* SimpleTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A7D5C9139D9AAE002A1F51 /* SimpleTableTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13A7D5BE139D9AAE002A1F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13A7D58D139D9AAE002A1F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13A7D595139D9AAE002A1F51;
+			remoteInfo = SimpleTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13A7D596139D9AAE002A1F51 /* SimpleTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A7D59A139D9AAE002A1F51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13A7D59C139D9AAE002A1F51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13A7D59E139D9AAE002A1F51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13A7D5A2139D9AAE002A1F51 /* SimpleTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTable-Info.plist"; sourceTree = "<group>"; };
+		13A7D5A4139D9AAE002A1F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13A7D5A6139D9AAE002A1F51 /* SimpleTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTable-Prefix.pch"; sourceTree = "<group>"; };
+		13A7D5A7139D9AAE002A1F51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13A7D5A9139D9AAE002A1F51 /* SimpleTableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTableAppDelegate.h; sourceTree = "<group>"; };
+		13A7D5AA139D9AAE002A1F51 /* SimpleTableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableAppDelegate.m; sourceTree = "<group>"; };
+		13A7D5AD139D9AAE002A1F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		13A7D5AF139D9AAE002A1F51 /* SimpleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewController.h; sourceTree = "<group>"; };
+		13A7D5B0139D9AAE002A1F51 /* SimpleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewController.m; sourceTree = "<group>"; };
+		13A7D5B3139D9AAE002A1F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SimpleTableViewController.xib; sourceTree = "<group>"; };
+		13A7D5BA139D9AAE002A1F51 /* SimpleTableTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTableTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A7D5C2139D9AAE002A1F51 /* SimpleTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTableTests-Info.plist"; sourceTree = "<group>"; };
+		13A7D5C4139D9AAE002A1F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13A7D5C6139D9AAE002A1F51 /* SimpleTableTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTableTests-Prefix.pch"; sourceTree = "<group>"; };
+		13A7D5C7139D9AAE002A1F51 /* SimpleTableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTableTests.h; sourceTree = "<group>"; };
+		13A7D5C9139D9AAE002A1F51 /* SimpleTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13A7D593139D9AAE002A1F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A7D59B139D9AAE002A1F51 /* UIKit.framework in Frameworks */,
+				13A7D59D139D9AAE002A1F51 /* Foundation.framework in Frameworks */,
+				13A7D59F139D9AAE002A1F51 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A7D5B6139D9AAE002A1F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A7D5BB139D9AAE002A1F51 /* UIKit.framework in Frameworks */,
+				13A7D5BC139D9AAE002A1F51 /* Foundation.framework in Frameworks */,
+				13A7D5BD139D9AAE002A1F51 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A7D58B139D9AAE002A1F51 = {
+			isa = PBXGroup;
+			children = (
+				13A7D5A0139D9AAE002A1F51 /* SimpleTable */,
+				13A7D5C0139D9AAE002A1F51 /* SimpleTableTests */,
+				13A7D599139D9AAE002A1F51 /* Frameworks */,
+				13A7D597139D9AAE002A1F51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13A7D597139D9AAE002A1F51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13A7D596139D9AAE002A1F51 /* SimpleTable.app */,
+				13A7D5BA139D9AAE002A1F51 /* SimpleTableTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13A7D599139D9AAE002A1F51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13A7D59A139D9AAE002A1F51 /* UIKit.framework */,
+				13A7D59C139D9AAE002A1F51 /* Foundation.framework */,
+				13A7D59E139D9AAE002A1F51 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13A7D5A0139D9AAE002A1F51 /* SimpleTable */ = {
+			isa = PBXGroup;
+			children = (
+				13A7D5D4139D9ADD002A1F51 /* Classes */,
+				13A7D5D3139D9AC3002A1F51 /* Resources */,
+				13A7D5A1139D9AAE002A1F51 /* Supporting Files */,
+			);
+			path = SimpleTable;
+			sourceTree = "<group>";
+		};
+		13A7D5A1139D9AAE002A1F51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A7D5A2139D9AAE002A1F51 /* SimpleTable-Info.plist */,
+				13A7D5A3139D9AAE002A1F51 /* InfoPlist.strings */,
+				13A7D5A6139D9AAE002A1F51 /* SimpleTable-Prefix.pch */,
+				13A7D5A7139D9AAE002A1F51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13A7D5C0139D9AAE002A1F51 /* SimpleTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				13A7D5C7139D9AAE002A1F51 /* SimpleTableTests.h */,
+				13A7D5C9139D9AAE002A1F51 /* SimpleTableTests.m */,
+				13A7D5C1139D9AAE002A1F51 /* Supporting Files */,
+			);
+			path = SimpleTableTests;
+			sourceTree = "<group>";
+		};
+		13A7D5C1139D9AAE002A1F51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A7D5C2139D9AAE002A1F51 /* SimpleTableTests-Info.plist */,
+				13A7D5C3139D9AAE002A1F51 /* InfoPlist.strings */,
+				13A7D5C6139D9AAE002A1F51 /* SimpleTableTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13A7D5D3139D9AC3002A1F51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13A7D5B2139D9AAE002A1F51 /* SimpleTableViewController.xib */,
+				13A7D5AC139D9AAE002A1F51 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13A7D5D4139D9ADD002A1F51 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				13A7D5A9139D9AAE002A1F51 /* SimpleTableAppDelegate.h */,
+				13A7D5AA139D9AAE002A1F51 /* SimpleTableAppDelegate.m */,
+				13A7D5AF139D9AAE002A1F51 /* SimpleTableViewController.h */,
+				13A7D5B0139D9AAE002A1F51 /* SimpleTableViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13A7D595139D9AAE002A1F51 /* SimpleTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A7D5CD139D9AAE002A1F51 /* Build configuration list for PBXNativeTarget "SimpleTable" */;
+			buildPhases = (
+				13A7D592139D9AAE002A1F51 /* Sources */,
+				13A7D593139D9AAE002A1F51 /* Frameworks */,
+				13A7D594139D9AAE002A1F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTable;
+			productName = SimpleTable;
+			productReference = 13A7D596139D9AAE002A1F51 /* SimpleTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13A7D5B9139D9AAE002A1F51 /* SimpleTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A7D5D0139D9AAE002A1F51 /* Build configuration list for PBXNativeTarget "SimpleTableTests" */;
+			buildPhases = (
+				13A7D5B5139D9AAE002A1F51 /* Sources */,
+				13A7D5B6139D9AAE002A1F51 /* Frameworks */,
+				13A7D5B7139D9AAE002A1F51 /* Resources */,
+				13A7D5B8139D9AAE002A1F51 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13A7D5BF139D9AAE002A1F51 /* PBXTargetDependency */,
+			);
+			name = SimpleTableTests;
+			productName = SimpleTableTests;
+			productReference = 13A7D5BA139D9AAE002A1F51 /* SimpleTableTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13A7D58D139D9AAE002A1F51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Brown University";
+			};
+			buildConfigurationList = 13A7D590139D9AAE002A1F51 /* Build configuration list for PBXProject "SimpleTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13A7D58B139D9AAE002A1F51;
+			productRefGroup = 13A7D597139D9AAE002A1F51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A7D595139D9AAE002A1F51 /* SimpleTable */,
+				13A7D5B9139D9AAE002A1F51 /* SimpleTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13A7D594139D9AAE002A1F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A7D5A5139D9AAE002A1F51 /* InfoPlist.strings in Resources */,
+				13A7D5AE139D9AAE002A1F51 /* MainWindow.xib in Resources */,
+				13A7D5B4139D9AAE002A1F51 /* SimpleTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A7D5B7139D9AAE002A1F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A7D5C5139D9AAE002A1F51 /* InfoPlist.strings in Resources */,
+				13A7D5C8139D9AAE002A1F51 /* SimpleTableTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13A7D5B8139D9AAE002A1F51 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13A7D592139D9AAE002A1F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A7D5A8139D9AAE002A1F51 /* main.m in Sources */,
+				13A7D5AB139D9AAE002A1F51 /* SimpleTableAppDelegate.m in Sources */,
+				13A7D5B1139D9AAE002A1F51 /* SimpleTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A7D5B5139D9AAE002A1F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A7D5CA139D9AAE002A1F51 /* SimpleTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13A7D5BF139D9AAE002A1F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13A7D595139D9AAE002A1F51 /* SimpleTable */;
+			targetProxy = 13A7D5BE139D9AAE002A1F51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13A7D5A3139D9AAE002A1F51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A7D5A4139D9AAE002A1F51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13A7D5AC139D9AAE002A1F51 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A7D5AD139D9AAE002A1F51 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		13A7D5B2139D9AAE002A1F51 /* SimpleTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A7D5B3139D9AAE002A1F51 /* en */,
+			);
+			name = SimpleTableViewController.xib;
+			sourceTree = "<group>";
+		};
+		13A7D5C3139D9AAE002A1F51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A7D5C4139D9AAE002A1F51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13A7D5CB139D9AAE002A1F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13A7D5CC139D9AAE002A1F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		13A7D5CE139D9AAE002A1F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTable/SimpleTable-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTable/SimpleTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13A7D5CF139D9AAE002A1F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTable/SimpleTable-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTable/SimpleTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		13A7D5D1139D9AAE002A1F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleTable.app/SimpleTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTableTests/SimpleTableTests-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTableTests/SimpleTableTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		13A7D5D2139D9AAE002A1F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleTable.app/SimpleTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTableTests/SimpleTableTests-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTableTests/SimpleTableTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A7D590139D9AAE002A1F51 /* Build configuration list for PBXProject "SimpleTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A7D5CB139D9AAE002A1F51 /* Debug */,
+				13A7D5CC139D9AAE002A1F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A7D5CD139D9AAE002A1F51 /* Build configuration list for PBXNativeTarget "SimpleTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A7D5CE139D9AAE002A1F51 /* Debug */,
+				13A7D5CF139D9AAE002A1F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13A7D5D0139D9AAE002A1F51 /* Build configuration list for PBXNativeTarget "SimpleTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A7D5D1139D9AAE002A1F51 /* Debug */,
+				13A7D5D2139D9AAE002A1F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13A7D58D139D9AAE002A1F51 /* Project object */;
+}
