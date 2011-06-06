@@ -16,7 +16,10 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+<<<<<<< HEAD
 		dylibVariantSuffix = "";
+=======
+>>>>>>> 2c16f8c90a33b7e7d2e93bf675c04c48304fae9a
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -45,6 +48,7 @@
 	137BD61013999BB0005C2608 /* SwitchViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1370, 661}}";
+<<<<<<< HEAD
 			sepNavSelRange = "{173, 0}";
 			sepNavVisRange = "{0, 562}";
 		};
@@ -54,11 +58,16 @@
 			sepNavIntBoundsRect = "{{0, 0}, {1370, 1326}}";
 			sepNavSelRange = "{2047, 0}";
 			sepNavVisRange = "{679, 1759}";
+=======
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 238}";
+>>>>>>> 2c16f8c90a33b7e7d2e93bf675c04c48304fae9a
 		};
 	};
 	137BD61513999BC9005C2608 /* BlueViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1370, 661}}";
+<<<<<<< HEAD
 			sepNavSelRange = "{270, 0}";
 			sepNavVisRange = "{0, 277}";
 		};
@@ -68,11 +77,16 @@
 			sepNavIntBoundsRect = "{{0, 0}, {1426, 949}}";
 			sepNavSelRange = "{733, 0}";
 			sepNavVisRange = "{615, 1238}";
+=======
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 234}";
+>>>>>>> 2c16f8c90a33b7e7d2e93bf675c04c48304fae9a
 		};
 	};
 	137BD61813999BD1005C2608 /* YellowViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1370, 661}}";
+<<<<<<< HEAD
 			sepNavSelRange = "{277, 0}";
 			sepNavVisRange = "{0, 283}";
 		};
@@ -179,13 +193,30 @@
 			sepNavIntBoundsRect = "{{0, 0}, {1370, 661}}";
 			sepNavSelRange = "{509, 0}";
 			sepNavVisRange = "{0, 517}";
+=======
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 238}";
+		};
+	};
+	1D3623240D0F684500981E51 /* MultiviewTestAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 661}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 341}";
+>>>>>>> 2c16f8c90a33b7e7d2e93bf675c04c48304fae9a
 		};
 	};
 	1D3623250D0F684500981E51 /* MultiviewTestAppDelegate.m */ = {
 		uiCtxt = {
+<<<<<<< HEAD
 			sepNavIntBoundsRect = "{{0, 0}, {1965, 1105}}";
 			sepNavSelRange = "{2628, 0}";
 			sepNavVisRange = "{0, 1833}";
+=======
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 949}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1737}";
+>>>>>>> 2c16f8c90a33b7e7d2e93bf675c04c48304fae9a
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* MultiviewTest */ = {
@@ -206,6 +237,7 @@
 			137BD60913999AE3005C2608 /* MultiviewTest */,
 		);
 		perUserDictionary = {
+<<<<<<< HEAD
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -242,6 +274,11 @@
 			137BD6391399B020005C2608 /* PBXTextBookmark */ = 137BD6391399B020005C2608 /* PBXTextBookmark */;
 			137BD63A1399B020005C2608 /* PBXTextBookmark */ = 137BD63A1399B020005C2608 /* PBXTextBookmark */;
 		};
+=======
+			PBXPerProjectTemplateStateSaveDate = 328833763;
+			PBXWorkspaceStateSaveDate = 328833763;
+		};
+>>>>>>> 2c16f8c90a33b7e7d2e93bf675c04c48304fae9a
 		sourceControlManager = 137BD60D13999B01005C2608 /* Source Control */;
 		userBuildSettings = {
 		};

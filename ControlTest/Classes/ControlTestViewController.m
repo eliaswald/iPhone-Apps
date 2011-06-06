@@ -107,10 +107,13 @@
 
 
 - (void)dealloc {
+<<<<<<< HEAD
 	[cityField release];
 	[stateField release];
 	[doSomethingButton release];
 	[scrollView release];
+=======
+>>>>>>> 2c16f8c90a33b7e7d2e93bf675c04c48304fae9a
     [super dealloc];
 }
 

@@ -46,6 +46,7 @@
 		[yellowController release];
 	}
 	
+<<<<<<< HEAD
 	[UIView beginAnimations:@"View Flip" context:nil];
 	[UIView setAnimationDuration:1.25];
 	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
@@ -69,6 +70,16 @@
 		[blueViewController viewDidDisappear:YES];
 	}
 	[UIView commitAnimations];
+=======
+	if (self.blueViewController.view.superview == nil) {
+		[yellowViewController.view removeFromSuperview];
+		[self.view insertSubview:blueViewController.view atIndex:0];
+	}
+	else {
+		[blueViewController.view removeFromSuperview];
+		[self.view insertSubview:yellowViewController.view atIndex:0];
+	}
+>>>>>>> 2c16f8c90a33b7e7d2e93bf675c04c48304fae9a
 }
 
 

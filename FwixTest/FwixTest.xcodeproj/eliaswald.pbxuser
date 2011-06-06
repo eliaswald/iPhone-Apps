@@ -406,6 +406,7 @@
 		);
 		name = "/Users/eliaswald/Documents/Xcode/FwixTest/FwixTest-Info.plist";
 		rLen = 0;
+<<<<<<< HEAD
 		rLoc = 9223372036854775808;
 	};
 	13FDEE8D13986F4D004ABE97 /* PBXTextBookmark */ = {
@@ -419,14 +420,34 @@
 		vrLoc = 1033;
 	};
 	13FDEF0913997661004ABE97 /* PBXTextBookmark */ = {
+=======
+		rLoc = 9223372036854775807;
+	};
+	13FDEE8C13986F4D004ABE97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* FwixTestViewController.m */;
+		name = "FwixTestViewController.m: 80";
+		rLen = 0;
+		rLoc = 1867;
+		rType = 0;
+		vrLen = 1165;
+		vrLoc = 754;
+	};
+	13FDEE8D13986F4D004ABE97 /* PBXTextBookmark */ = {
+>>>>>>> 2c16f8c90a33b7e7d2e93bf675c04c48304fae9a
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* FwixTestViewController.m */;
 		name = "FwixTestViewController.m: 55";
 		rLen = 0;
 		rLoc = 1329;
 		rType = 0;
+<<<<<<< HEAD
 		vrLen = 1225;
 		vrLoc = 1391;
+=======
+		vrLen = 1305;
+		vrLoc = 1033;
+>>>>>>> 2c16f8c90a33b7e7d2e93bf675c04c48304fae9a
 	};
 	1D3623240D0F684500981E51 /* FwixTestAppDelegate.h */ = {
 		uiCtxt = {
@@ -457,9 +478,15 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* FwixTestViewController.m */ = {
 		uiCtxt = {
+<<<<<<< HEAD
 			sepNavIntBoundsRect = "{{0, 0}, {1091, 1521}}";
 			sepNavSelRange = "{1329, 0}";
 			sepNavVisRange = "{1391, 1225}";
+=======
+			sepNavIntBoundsRect = "{{0, 0}, {663, 1599}}";
+			sepNavSelRange = "{872, 0}";
+			sepNavVisRange = "{904, 426}";
+>>>>>>> 2c16f8c90a33b7e7d2e93bf675c04c48304fae9a
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -496,8 +523,13 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
+<<<<<<< HEAD
 			PBXPerProjectTemplateStateSaveDate = 328820913;
 			PBXWorkspaceStateSaveDate = 328820913;
+=======
+			PBXPerProjectTemplateStateSaveDate = 328729857;
+			PBXWorkspaceStateSaveDate = 328729857;
+>>>>>>> 2c16f8c90a33b7e7d2e93bf675c04c48304fae9a
 		};
 		perUserProjectItems = {
 			130DADE713970BD00072DC60 /* PBXTextBookmark */ = 130DADE713970BD00072DC60 /* PBXTextBookmark */;
@@ -521,8 +553,13 @@
 			13FDEE0013984CE0004ABE97 /* PBXTextBookmark */ = 13FDEE0013984CE0004ABE97 /* PBXTextBookmark */;
 			13FDEE8A13986F4D004ABE97 /* PBXBookmark */ = 13FDEE8A13986F4D004ABE97 /* PBXBookmark */;
 			13FDEE8B13986F4D004ABE97 /* PlistBookmark */ = 13FDEE8B13986F4D004ABE97 /* PlistBookmark */;
+<<<<<<< HEAD
 			13FDEE8D13986F4D004ABE97 /* PBXTextBookmark */ = 13FDEE8D13986F4D004ABE97 /* PBXTextBookmark */;
 			13FDEF0913997661004ABE97 /* PBXTextBookmark */ = 13FDEF0913997661004ABE97 /* PBXTextBookmark */;
+=======
+			13FDEE8C13986F4D004ABE97 /* PBXTextBookmark */ = 13FDEE8C13986F4D004ABE97 /* PBXTextBookmark */;
+			13FDEE8D13986F4D004ABE97 /* PBXTextBookmark */ = 13FDEE8D13986F4D004ABE97 /* PBXTextBookmark */;
+>>>>>>> 2c16f8c90a33b7e7d2e93bf675c04c48304fae9a
 		};
 		sourceControlManager = 130DAD8E1397053A0072DC60 /* Source Control */;
 		userBuildSettings = {
