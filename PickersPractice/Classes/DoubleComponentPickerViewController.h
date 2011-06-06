@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-#define kFillingComponent 0;
-#define kBreadComponent 1;
+#define kFillingComponent 0
+#define kBreadComponent 1
 
 @interface DoubleComponentPickerViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate> {
     IBOutlet UIPickerView *doublePicker;

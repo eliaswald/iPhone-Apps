@@ -32,6 +32,13 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+    NSArray *breadArray = [[NSArray alloc] initWithObjects:@"White", @"Whole", @"Rye", @"Sourdough", nil];
+    self.breadTypes = breadArray;
+    [breadArray release];
+    
+    NSArray *fillerArray = [[NSArray alloc] initWithObjects:@"Ham", @"PB", @"Turkey", @"Lettuce", nil];
+    self.fillingTypes = fillerArray;
+    [fillerArray release];
     [super viewDidLoad];
 }
 
@@ -39,6 +46,16 @@
 {
     NSInteger breadRow = [doublePicker selectedRowInComponent:kBreadComponent];
     NSInteger fillerRow = [doublePicker selectedRowInComponent:kFillingComponent];
+    
+    NSString *bread = [breadTypes objectAtIndex:breadRow];
+    NSString *filler = [fillingTypes objectAtIndex:fillerRow];
+    
+    NSString *message = [[NSString alloc] initWithFormat:@"Your %@ on %@ bread will be right up.", filler, bread];
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Thanks for ordering." message:message delegate:nil cancelButtonTitle:@"Done" otherButtonTitles: nil];
+    [alert show];
+    [alert release];
+    [message release];
 }
 
 /*
@@ -64,8 +81,34 @@
 
 
 - (void)dealloc {
+    [doublePicker release];
+    [breadTypes release];
+    [fillingTypes release];
     [super dealloc];
 }
 
+#pragma mark -
+#pragma mark Picker Datasource Methods
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
+{
+    return 2;
+}
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
+{
+    if (component == kBreadComponent) {
+        return [self.breadTypes count];
+    }
+    else {
+        return [self.fillingTypes count];
+    }
+}
+#pragma mark Picker Delegate Methods
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
+{
+    if (component == kBreadComponent) {
+        return [self.breadTypes objectAtIndex:row];
+    }
+    return [self.fillingTypes objectAtIndex:row];
+}
 
 @end
