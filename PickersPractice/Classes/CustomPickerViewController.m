@@ -10,7 +10,7 @@
 
 
 @implementation CustomPickerViewController
-@synthesize picker, winLabel, column1, column2, column3, column4, column5;
+@synthesize picker, winLabel, button, column1, column2, column3, column4, column5;
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -68,13 +68,23 @@
     [super viewDidLoad];
 }
 
+-(void)showButton
+{
+    button.hidden = NO;
+}
+-(void)playWin
+{
+    winLabel.text = @"WIN!";
+    [self performSelector:@selector(showButton) withObject:nil afterDelay:1.5];
+}
+
 - (IBAction)spin
 {
     BOOL win = NO;
     int numInRow = 1;
     int lastVal = -1;
     for (int i=0; i<5; i++) {
-        int newValue = random() % [self.column1 count];
+        int newValue = random() % [picker numberOfRowsInComponent:i];
         if (newValue == lastVal) {
             numInRow ++;
         }
@@ -89,11 +99,15 @@
         }
     }
     
+    button.hidden = YES;
+    
     if (win) {
-        winLabel.text = @"WIN!";
+        [self performSelector:@selector(playWin) withObject:nil afterDelay:.5];
     }
     else
-        winLabel.text = @"";
+        [self performSelector:@selector(showButton) withObject:nil afterDelay:.5];
+    
+    winLabel.text = @"";
 }
 
 
@@ -127,6 +141,7 @@
     [column3 release];
     [column4 release];
     [column5 release];
+    [button release];
     [super dealloc];
 }
 

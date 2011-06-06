@@ -18,10 +18,12 @@
     NSArray *column3;
     NSArray *column4;
     NSArray *column5;
+    IBOutlet UIButton *button;
 }
 
 @property (nonatomic, retain) UIPickerView *picker;
 @property (nonatomic, retain) UILabel *winLabel;
+@property (nonatomic, retain) UIButton *button;
 @property (nonatomic, retain) NSArray *column1;
 @property (nonatomic, retain) NSArray *column2;
 @property (nonatomic, retain) NSArray *column3;
