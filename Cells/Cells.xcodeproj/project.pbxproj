@@ -22,6 +22,8 @@
 		13623D5C139EA30F00F8671B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13623D5A139EA30F00F8671B /* InfoPlist.strings */; };
 		13623D5F139EA30F00F8671B /* CellsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 13623D5E139EA30F00F8671B /* CellsTests.h */; };
 		13623D61139EA30F00F8671B /* CellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13623D60139EA30F00F8671B /* CellsTests.m */; };
+		13623D6D139EA86D00F8671B /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13623D6B139EA86D00F8671B /* CustomCell.m */; };
+		13623D6E139EA86D00F8671B /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13623D6C139EA86D00F8671B /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		13623D5D139EA30F00F8671B /* CellsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CellsTests-Prefix.pch"; sourceTree = "<group>"; };
 		13623D5E139EA30F00F8671B /* CellsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellsTests.h; sourceTree = "<group>"; };
 		13623D60139EA30F00F8671B /* CellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellsTests.m; sourceTree = "<group>"; };
+		13623D6A139EA86D00F8671B /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		13623D6B139EA86D00F8671B /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		13623D6C139EA86D00F8671B /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,9 @@
 				13623D47139EA30F00F8671B /* CellsViewController.m */,
 				13623D49139EA30F00F8671B /* CellsViewController.xib */,
 				13623D38139EA30F00F8671B /* Supporting Files */,
+				13623D6A139EA86D00F8671B /* CustomCell.h */,
+				13623D6B139EA86D00F8671B /* CustomCell.m */,
+				13623D6C139EA86D00F8671B /* CustomCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 				13623D3C139EA30F00F8671B /* InfoPlist.strings in Resources */,
 				13623D45139EA30F00F8671B /* MainWindow.xib in Resources */,
 				13623D4B139EA30F00F8671B /* CellsViewController.xib in Resources */,
+				13623D6E139EA86D00F8671B /* CustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +275,7 @@
 				13623D3F139EA30F00F8671B /* main.m in Sources */,
 				13623D42139EA30F00F8671B /* CellsAppDelegate.m in Sources */,
 				13623D48139EA30F00F8671B /* CellsViewController.m in Sources */,
+				13623D6D139EA86D00F8671B /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

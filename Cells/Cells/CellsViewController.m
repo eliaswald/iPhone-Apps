@@ -7,6 +7,7 @@
 //
 
 #import "CellsViewController.h"
+#import "CustomCell.h"
 
 @implementation CellsViewController
 @synthesize computers;
@@ -68,14 +69,23 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellTableIdentifier = @"CellTableIdentifier";
+    static NSString *CustomCellIdentifier = @"CustomCellIdentifier";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellTableIdentifier];
+    CustomCell *cell = (CustomCell *)[tableView dequeueReusableCellWithIdentifier:CustomCellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellTableIdentifier] autorelease];
+        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"CustomCell" owner:self options:nil];
+        cell = [nib objectAtIndex:0];
     }
-    
+    NSUInteger row = [indexPath row];
+    NSDictionary *rowData = [self.computers objectAtIndex:row];
+    cell.colorLabel.text = [rowData objectForKey:@"Color"];
+    cell.nameLabel.text = [rowData objectForKey:@"Name"];
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return kTbleViewRowHeight;
 }
 
 @end

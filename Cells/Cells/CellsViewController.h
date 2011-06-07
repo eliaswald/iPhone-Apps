@@ -7,8 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#define kNameValueTag 1
-#define kColorValueTag 2
 
 @interface CellsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
     NSArray *computers;
