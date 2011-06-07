@@ -9,6 +9,19 @@
 #import "SimpleTableViewController.h"
 
 @implementation SimpleTableViewController
+@synthesize listData;
+
+#pragma mark TableView Controller Methods
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad
+{
+    NSArray *array = [[NSArray alloc] initWithObjects:@"Sleepy", @"Sneezy", @"Bashful", @"Happy", @"Doc", @"Grumpy", @"Dopey", @"Thorin", @"Balin", @"Leoglas", @"Aragorn", @"Frodo", @"Sam", nil];
+    self.listData = array;
+    [array release];
+    [super viewDidLoad];
+}
+
 
 - (void)dealloc
 {
@@ -23,15 +36,28 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-#pragma mark - View lifecycle
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
+#pragma mark -
+#pragma mark TableView Datasource Methods
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    [super viewDidLoad];
+    return [self.listData count];
 }
-*/
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *SimpleTableIdentifier = @"SimpleTableIdentifier";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SimpleTableIdentifier];
+    if (cell == nil) {
+        cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:SimpleTableIdentifier] autorelease];
+    }
+    
+    NSUInteger row = [indexPath row];
+    cell.textLabel.text = [listData objectAtIndex:row];
+    return cell;
+}
+
+#pragma mark - View lifecycle
 
 - (void)viewDidUnload
 {
