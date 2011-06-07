@@ -54,6 +54,8 @@
     
     NSUInteger row = [indexPath row];
     cell.textLabel.text = [listData objectAtIndex:row];
+    UIImage *image = [UIImage imageNamed:@"star.png"];
+    cell.imageView.image = image;
     return cell;
 }
 
@@ -70,6 +72,38 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+#pragma mark -
+#pragma mark TableView Delegate Methods
+
+- (NSInteger)tableView:(UITableView *)tableView indentationLevelForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSUInteger row = [indexPath row];
+    return row;
+}
+
+-(NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSUInteger row = [indexPath row];
+    if (row == 0) {
+        return nil;
+    }
+    return indexPath;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSUInteger row = [indexPath row];
+    NSString *rowValue = [listData objectAtIndex:row];
+    
+    NSString *message = [[NSString alloc] initWithFormat:@"You selected %@", rowValue];
+    NSString *title = [[NSString alloc] initWithFormat:@"Row %d Selected", row];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:message delegate:nil cancelButtonTitle:@"Done" otherButtonTitles: nil];
+    [alert show];
+    [alert release];
+    [message release];
+    [title release];
 }
 
 @end

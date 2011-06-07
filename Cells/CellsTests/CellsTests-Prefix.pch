@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CellsTests' target in the 'CellsTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
