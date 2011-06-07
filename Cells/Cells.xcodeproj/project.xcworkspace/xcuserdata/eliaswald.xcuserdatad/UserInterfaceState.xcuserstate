@@ -1523,8 +1523,8 @@
 				</dict>
 			</array>
 		</dict>
-		<real>329166193.99448401</real>
-		<string>{499, 2087}</string>
+		<real>329166256.12418902</real>
+		<string>{530, 2061}</string>
 		<string>{2206, 0}</string>
 		<dict>
 			<key>$class</key>
@@ -4246,8 +4246,8 @@
 				</dict>
 			</array>
 		</dict>
-		<real>329166193.995534</real>
-		<string>{499, 2087}</string>
+		<real>329166256.12500399</real>
+		<string>{530, 2061}</string>
 		<string>{2206, 0}</string>
 		<string>-tableView:cellForRowAtIndexPath:</string>
 		<dict>
@@ -4282,7 +4282,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {880, 854}}</string>
+		<string>{{0, 0}, {880, 876}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
