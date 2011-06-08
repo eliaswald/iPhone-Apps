@@ -166,6 +166,12 @@
     return indexPath;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [search resignFirstResponder];
+}
+
+
 #pragma mark -
 #pragma mark Search Bar Delegate Methods
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
