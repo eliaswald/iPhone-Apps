@@ -2,20 +2,4 @@
 <Bucket
    type = "1"
    version = "1.0">
-   <FileBreakpoints>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
-         filePath = "Sections/SectionsViewController.h"
-         timestampString = "329166798.424016"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "16"
-         endingLineNumber = "16"
-         landmarkName = "@property (nonatomic, retain NSArray *keys; @end "
-         landmarkType = "19">
-      </FileBreakpoint>
-   </FileBreakpoints>
 </Bucket>

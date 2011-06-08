@@ -23,6 +23,7 @@
 		13623DAC139EAEBE00F8671B /* SectionsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 13623DAB139EAEBE00F8671B /* SectionsTests.h */; };
 		13623DAE139EAEBE00F8671B /* SectionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13623DAD139EAEBE00F8671B /* SectionsTests.m */; };
 		13623DB8139EAF6B00F8671B /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13623DB7139EAF6B00F8671B /* sortednames.plist */; };
+		13623DBB139EB4AB00F8671B /* NSDictionary-MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13623DBA139EB4AB00F8671B /* NSDictionary-MutableDeepCopy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		13623DAB139EAEBE00F8671B /* SectionsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectionsTests.h; sourceTree = "<group>"; };
 		13623DAD139EAEBE00F8671B /* SectionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectionsTests.m; sourceTree = "<group>"; };
 		13623DB7139EAF6B00F8671B /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
+		13623DB9139EB49600F8671B /* NSDictionary-MutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary-MutableDeepCopy.h"; sourceTree = "<group>"; };
+		13623DBA139EB4AB00F8671B /* NSDictionary-MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary-MutableDeepCopy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				13623D94139EAEBE00F8671B /* SectionsViewController.m */,
 				13623D96139EAEBE00F8671B /* SectionsViewController.xib */,
 				13623D85139EAEBE00F8671B /* Supporting Files */,
+				13623DB9139EB49600F8671B /* NSDictionary-MutableDeepCopy.h */,
+				13623DBA139EB4AB00F8671B /* NSDictionary-MutableDeepCopy.m */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				13623D8C139EAEBE00F8671B /* main.m in Sources */,
 				13623D8F139EAEBE00F8671B /* SectionsAppDelegate.m in Sources */,
 				13623D95139EAEBE00F8671B /* SectionsViewController.m in Sources */,
+				13623DBB139EB4AB00F8671B /* NSDictionary-MutableDeepCopy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
