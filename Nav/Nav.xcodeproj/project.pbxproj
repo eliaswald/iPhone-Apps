@@ -11,6 +11,10 @@
 		135B7A8613A14F5200E69A93 /* MoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135B7A8513A14F5200E69A93 /* MoveMeController.m */; };
 		135B7A8813A156C400E69A93 /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 135B7A8713A156C400E69A93 /* computers.plist */; };
 		135B7A8C13A156EB00E69A93 /* DeleteMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135B7A8B13A156EB00E69A93 /* DeleteMeController.m */; };
+		135B7A8F13A16DA300E69A93 /* President.m in Sources */ = {isa = PBXBuildFile; fileRef = 135B7A8E13A16DA300E69A93 /* President.m */; };
+		135B7A9213A16FA200E69A93 /* Presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 135B7A9113A16FA200E69A93 /* Presidents.plist */; };
+		135B7A9613A16FD900E69A93 /* PresidentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135B7A9513A16FD900E69A93 /* PresidentsViewController.m */; };
+		135B7A9913A16FEA00E69A93 /* PresidentsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135B7A9813A16FEA00E69A93 /* PresidentsDetailController.m */; };
 		13F4643E13A01007008D423C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F4643D13A01007008D423C /* UIKit.framework */; };
 		13F4644013A01007008D423C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F4643F13A01007008D423C /* Foundation.framework */; };
 		13F4644213A01007008D423C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F4644113A01007008D423C /* CoreGraphics.framework */; };
@@ -62,6 +66,13 @@
 		135B7A8713A156C400E69A93 /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = "<group>"; };
 		135B7A8A13A156EB00E69A93 /* DeleteMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteMeController.h; sourceTree = "<group>"; };
 		135B7A8B13A156EB00E69A93 /* DeleteMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteMeController.m; sourceTree = "<group>"; };
+		135B7A8D13A16DA300E69A93 /* President.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = President.h; sourceTree = "<group>"; };
+		135B7A8E13A16DA300E69A93 /* President.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = President.m; sourceTree = "<group>"; };
+		135B7A9113A16FA200E69A93 /* Presidents.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Presidents.plist; sourceTree = "<group>"; };
+		135B7A9413A16FD900E69A93 /* PresidentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresidentsViewController.h; sourceTree = "<group>"; };
+		135B7A9513A16FD900E69A93 /* PresidentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresidentsViewController.m; sourceTree = "<group>"; };
+		135B7A9713A16FEA00E69A93 /* PresidentsDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresidentsDetailController.h; sourceTree = "<group>"; };
+		135B7A9813A16FEA00E69A93 /* PresidentsDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresidentsDetailController.m; sourceTree = "<group>"; };
 		13F4643913A01007008D423C /* Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F4643D13A01007008D423C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13F4643F13A01007008D423C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -151,6 +162,26 @@
 			name = DeleteMe;
 			sourceTree = "<group>";
 		};
+		135B7A9013A16DA900E69A93 /* President Data */ = {
+			isa = PBXGroup;
+			children = (
+				135B7A8D13A16DA300E69A93 /* President.h */,
+				135B7A8E13A16DA300E69A93 /* President.m */,
+			);
+			name = "President Data";
+			sourceTree = "<group>";
+		};
+		135B7A9313A16FBB00E69A93 /* PresidentControllers */ = {
+			isa = PBXGroup;
+			children = (
+				135B7A9413A16FD900E69A93 /* PresidentsViewController.h */,
+				135B7A9513A16FD900E69A93 /* PresidentsViewController.m */,
+				135B7A9713A16FEA00E69A93 /* PresidentsDetailController.h */,
+				135B7A9813A16FEA00E69A93 /* PresidentsDetailController.m */,
+			);
+			name = PresidentControllers;
+			sourceTree = "<group>";
+		};
 		13F4642E13A01007008D423C = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +266,8 @@
 		13F4647B13A0104A008D423C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				135B7A9313A16FBB00E69A93 /* PresidentControllers */,
+				135B7A9013A16DA900E69A93 /* President Data */,
 				135B7A8913A156DD00E69A93 /* DeleteMe */,
 				135B7A8213A14F3400E69A93 /* MoveMe */,
 				13F464B513A0383B008D423C /* SearchSections */,
@@ -257,6 +290,7 @@
 		13F4648813A0205E008D423C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				135B7A9113A16FA200E69A93 /* Presidents.plist */,
 				135B7A8713A156C400E69A93 /* computers.plist */,
 				13F4648913A02082008D423C /* button_down.png */,
 				13F4648A13A02082008D423C /* button_up.png */,
@@ -410,6 +444,7 @@
 				13F464BA13A03849008D423C /* SectionsViewController.xib in Resources */,
 				1305A51113A03FC0009C3DCF /* sortednames.plist in Resources */,
 				135B7A8813A156C400E69A93 /* computers.plist in Resources */,
+				135B7A9213A16FA200E69A93 /* Presidents.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +493,9 @@
 				13F464BD13A0384E008D423C /* NSDictionary-MutableDeepCopy.m in Sources */,
 				135B7A8613A14F5200E69A93 /* MoveMeController.m in Sources */,
 				135B7A8C13A156EB00E69A93 /* DeleteMeController.m in Sources */,
+				135B7A8F13A16DA300E69A93 /* President.m in Sources */,
+				135B7A9613A16FD900E69A93 /* PresidentsViewController.m in Sources */,
+				135B7A9913A16FEA00E69A93 /* PresidentsDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

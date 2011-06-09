@@ -15,6 +15,7 @@
 #import "RowControlsController.h"
 #import "MoveMeController.h"
 #import "DeleteMeController.h"
+#import "PresidentsViewController.h"
 
 @implementation RootViewController
 @synthesize controllers;
@@ -90,6 +91,13 @@
     deleteMeController.rowImage = [UIImage imageNamed:@"deleteMeIcon.png"];
     [array addObject:deleteMeController];
     [deleteMeController release];
+    
+    //Presidents
+    PresidentsViewController *presidentsController = [[PresidentsViewController alloc] initWithStyle:UITableViewStylePlain];
+    presidentsController.title = @"Detail Edit";
+    presidentsController.rowImage = [UIImage imageNamed:@"detailEditIcon.png"];
+    [array addObject:presidentsController];
+    [presidentsController release];
     
     self.controllers = array;
     [array release];
