@@ -109,11 +109,12 @@
     NSString *onString = (switchView.on) ? @"IS on" : @"IS NOT on";
     NSString *robot = [list objectAtIndex:row];
     NSString *messageString = [[NSString alloc] initWithFormat:baseString, robot, onString];
-    NSString *title = [[NSString alloc] initWithFormat:@"You clicked %d row.", row];
+    NSString *title = [[NSString alloc] initWithFormat:@"You clicked row %d.", row+1];
     
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:messageString delegate:nil cancelButtonTitle:@"Done" otherButtonTitles: nil];
     
     [alert show];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [alert release];
     [title release];
     [messageString release];

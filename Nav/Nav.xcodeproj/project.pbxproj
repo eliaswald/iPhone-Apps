@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1305A51113A03FC0009C3DCF /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1305A51013A03FC0009C3DCF /* sortednames.plist */; };
+		135B7A8613A14F5200E69A93 /* MoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135B7A8513A14F5200E69A93 /* MoveMeController.m */; };
+		135B7A8813A156C400E69A93 /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 135B7A8713A156C400E69A93 /* computers.plist */; };
+		135B7A8C13A156EB00E69A93 /* DeleteMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135B7A8B13A156EB00E69A93 /* DeleteMeController.m */; };
 		13F4643E13A01007008D423C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F4643D13A01007008D423C /* UIKit.framework */; };
 		13F4644013A01007008D423C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F4643F13A01007008D423C /* Foundation.framework */; };
 		13F4644213A01007008D423C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F4644113A01007008D423C /* CoreGraphics.framework */; };
@@ -54,6 +57,11 @@
 
 /* Begin PBXFileReference section */
 		1305A51013A03FC0009C3DCF /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
+		135B7A8413A14F5200E69A93 /* MoveMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveMeController.h; sourceTree = "<group>"; };
+		135B7A8513A14F5200E69A93 /* MoveMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveMeController.m; sourceTree = "<group>"; };
+		135B7A8713A156C400E69A93 /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = "<group>"; };
+		135B7A8A13A156EB00E69A93 /* DeleteMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteMeController.h; sourceTree = "<group>"; };
+		135B7A8B13A156EB00E69A93 /* DeleteMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteMeController.m; sourceTree = "<group>"; };
 		13F4643913A01007008D423C /* Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F4643D13A01007008D423C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13F4643F13A01007008D423C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -125,6 +133,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		135B7A8213A14F3400E69A93 /* MoveMe */ = {
+			isa = PBXGroup;
+			children = (
+				135B7A8413A14F5200E69A93 /* MoveMeController.h */,
+				135B7A8513A14F5200E69A93 /* MoveMeController.m */,
+			);
+			name = MoveMe;
+			sourceTree = "<group>";
+		};
+		135B7A8913A156DD00E69A93 /* DeleteMe */ = {
+			isa = PBXGroup;
+			children = (
+				135B7A8A13A156EB00E69A93 /* DeleteMeController.h */,
+				135B7A8B13A156EB00E69A93 /* DeleteMeController.m */,
+			);
+			name = DeleteMe;
+			sourceTree = "<group>";
+		};
 		13F4642E13A01007008D423C = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +235,8 @@
 		13F4647B13A0104A008D423C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				135B7A8913A156DD00E69A93 /* DeleteMe */,
+				135B7A8213A14F3400E69A93 /* MoveMe */,
 				13F464B513A0383B008D423C /* SearchSections */,
 				13F464A913A037BB008D423C /* RowControls */,
 				13F464A513A032D5008D423C /* Checklist */,
@@ -229,6 +257,7 @@
 		13F4648813A0205E008D423C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				135B7A8713A156C400E69A93 /* computers.plist */,
 				13F4648913A02082008D423C /* button_down.png */,
 				13F4648A13A02082008D423C /* button_up.png */,
 				13F4648B13A02082008D423C /* checkmarkControllerIcon.png */,
@@ -380,6 +409,7 @@
 				13F464A413A0214B008D423C /* DisclosureDetailController.xib in Resources */,
 				13F464BA13A03849008D423C /* SectionsViewController.xib in Resources */,
 				1305A51113A03FC0009C3DCF /* sortednames.plist in Resources */,
+				135B7A8813A156C400E69A93 /* computers.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +456,8 @@
 				13F464AC13A037D9008D423C /* RowControlsController.m in Sources */,
 				13F464B913A03849008D423C /* SectionsViewController.m in Sources */,
 				13F464BD13A0384E008D423C /* NSDictionary-MutableDeepCopy.m in Sources */,
+				135B7A8613A14F5200E69A93 /* MoveMeController.m in Sources */,
+				135B7A8C13A156EB00E69A93 /* DeleteMeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

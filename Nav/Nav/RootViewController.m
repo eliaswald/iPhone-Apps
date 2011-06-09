@@ -12,6 +12,9 @@
 #import "DisclosureButtonController.h"
 #import "ChecklistController.h"
 #import "SectionsViewController.h"
+#import "RowControlsController.h"
+#import "MoveMeController.h"
+#import "DeleteMeController.h"
 
 @implementation RootViewController
 @synthesize controllers;
@@ -66,6 +69,27 @@
     sectionsViewController.rowImage = [UIImage imageNamed:@"button_up.png"];
     [array addObject:sectionsViewController];
     [sectionsViewController release];
+    
+    //Table Row Controls
+    RowControlsController *rowControlsController = [[RowControlsController alloc] initWithStyle:UITableViewStylePlain];
+    rowControlsController.title = @"Row Controls";
+    rowControlsController.rowImage = [UIImage imageNamed:@"rowControlsIcon.png"];
+    [array addObject:rowControlsController];
+    [rowControlsController release];
+    
+    //MoveMe Controller
+    MoveMeController *moveMeController = [[MoveMeController alloc] initWithStyle:UITableViewStylePlain];
+    moveMeController.title = @"Move The Rows";
+    moveMeController.rowImage = [UIImage imageNamed:@"moveMeIcon.png"];
+    [array addObject:moveMeController];
+    [moveMeController release];
+    
+    //DeleteMe Controller
+    DeleteMeController *deleteMeController = [[DeleteMeController alloc] initWithStyle:UITableViewStylePlain];
+    deleteMeController.title = @"Delete or Move Rows";
+    deleteMeController.rowImage = [UIImage imageNamed:@"deleteMeIcon.png"];
+    [array addObject:deleteMeController];
+    [deleteMeController release];
     
     self.controllers = array;
     [array release];
