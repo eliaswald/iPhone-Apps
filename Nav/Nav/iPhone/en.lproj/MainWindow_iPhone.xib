@@ -51,7 +51,6 @@
 				<string key="NSFrameSize">{320, 480}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
 					<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -62,7 +61,7 @@
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<bool key="IBUIResizesToFullScreen">YES</bool>
 			</object>
-			<object class="IBUINavigationController" id="763089415">
+			<object class="IBUINavigationController" id="314547896">
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 					<int key="IBUIInterfaceOrientation">1</int>
@@ -70,7 +69,7 @@
 				</object>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<bool key="IBUIHorizontal">NO</bool>
-				<object class="IBUINavigationBar" key="IBUINavigationBar" id="771166495">
+				<object class="IBUINavigationBar" key="IBUINavigationBar" id="484645086">
 					<nil key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<string key="NSFrameSize">{0, 0}</string>
@@ -81,13 +80,13 @@
 				</object>
 				<object class="NSMutableArray" key="IBUIViewControllers">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUIViewController" id="591276199">
-						<object class="IBUINavigationItem" key="IBUINavigationItem" id="756978464">
+					<object class="IBUIViewController" id="248174992">
+						<object class="IBUINavigationItem" key="IBUINavigationItem" id="821221655">
 							<reference key="IBUINavigationBar"/>
 							<string key="IBUITitle">Root View Controller</string>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
-						<reference key="IBUIParentViewController" ref="763089415"/>
+						<reference key="IBUIParentViewController" ref="314547896"/>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
 							<int key="interfaceOrientation">1</int>
@@ -121,7 +120,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">navController</string>
 						<reference key="source" ref="987256611"/>
-						<reference key="destination" ref="763089415"/>
+						<reference key="destination" ref="314547896"/>
 					</object>
 					<int key="connectionID">13</int>
 				</object>
@@ -129,9 +128,17 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">rootViewController</string>
 						<reference key="source" ref="380026005"/>
-						<reference key="destination" ref="763089415"/>
+						<reference key="destination" ref="314547896"/>
 					</object>
 					<int key="connectionID">14</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="314547896"/>
+						<reference key="destination" ref="841351856"/>
+					</object>
+					<int key="connectionID">17</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -170,32 +177,32 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">9</int>
-						<reference key="object" ref="763089415"/>
+						<reference key="object" ref="314547896"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="771166495"/>
-							<reference ref="591276199"/>
+							<reference ref="484645086"/>
+							<reference ref="248174992"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
-						<reference key="object" ref="771166495"/>
-						<reference key="parent" ref="763089415"/>
+						<reference key="object" ref="484645086"/>
+						<reference key="parent" ref="314547896"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">11</int>
-						<reference key="object" ref="591276199"/>
+						<reference key="object" ref="248174992"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="756978464"/>
+							<reference ref="821221655"/>
 						</object>
-						<reference key="parent" ref="763089415"/>
+						<reference key="parent" ref="314547896"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">12</int>
-						<reference key="object" ref="756978464"/>
-						<reference key="parent" ref="591276199"/>
+						<reference key="object" ref="821221655"/>
+						<reference key="parent" ref="248174992"/>
 					</object>
 				</object>
 			</object>
@@ -248,7 +255,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">14</int>
+			<int key="maxID">22</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

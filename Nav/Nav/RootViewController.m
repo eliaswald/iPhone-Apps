@@ -10,7 +10,8 @@
 #import "SecondLevelViewController.h"
 #import "NavAppDelegate_iPhone.h"
 #import "DisclosureButtonController.h"
-
+#import "ChecklistController.h"
+#import "SectionsViewController.h"
 
 @implementation RootViewController
 @synthesize controllers;
@@ -52,6 +53,19 @@
     [array addObject:disclosureButtonController];
     [disclosureButtonController release];
     
+    //Checklist
+    ChecklistController *checkListController = [[ChecklistController alloc] initWithStyle:UITableViewStylePlain];
+    checkListController.title = @"Checklist";
+    checkListController.rowImage = [UIImage imageNamed:@"checkmarkControllerIcon.png"];
+    [array addObject:checkListController];
+    [checkListController release];
+    
+    //Sections
+    SectionsViewController *sectionsViewController = [[SectionsViewController alloc] initWithNibName:@"SectionsViewController" bundle:nil];
+    sectionsViewController.title = @"Search Names";
+    sectionsViewController.rowImage = [UIImage imageNamed:@"button_up.png"];
+    [array addObject:sectionsViewController];
+    [sectionsViewController release];
     
     self.controllers = array;
     [array release];
@@ -118,9 +132,16 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     NSUInteger row = [indexPath row];
-    SecondLevelViewController *controller = [controllers objectAtIndex:row];
-    cell.textLabel.text = controller.title;
-    cell.imageView.image = controller.rowImage;
+    if (row!= 2){
+        SecondLevelViewController *controller = [controllers objectAtIndex:row];
+        cell.textLabel.text = controller.title;
+        cell.imageView.image = controller.rowImage;
+    }
+    else {
+        SectionsViewController *controller = [controllers objectAtIndex:row];
+        cell.textLabel.text = controller.title;
+        cell.imageView.image = controller.rowImage;
+    }
     return cell;
 }
 
@@ -172,6 +193,7 @@
     
     NavAppDelegate_iPhone *delegate = [[UIApplication sharedApplication] delegate];
     [delegate.navController pushViewController:nextController animated:YES];
+
 }
 
 - (UITableViewCellAccessoryType)tableView:(UITableView *)tableView accessoryTypeForRowWithIndexPath:(NSIndexPath *)indexPath

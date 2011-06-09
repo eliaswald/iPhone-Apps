@@ -94,6 +94,7 @@
 {
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hey, do you see the disclosure button?" message:@"If you're trying to drill down, select that instead." delegate:nil cancelButtonTitle:@"Done" otherButtonTitles: nil];
     [alert show];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [alert release];
 }
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath

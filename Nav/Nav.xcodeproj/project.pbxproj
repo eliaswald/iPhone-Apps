@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1305A51113A03FC0009C3DCF /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1305A51013A03FC0009C3DCF /* sortednames.plist */; };
 		13F4643E13A01007008D423C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F4643D13A01007008D423C /* UIKit.framework */; };
 		13F4644013A01007008D423C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F4643F13A01007008D423C /* Foundation.framework */; };
 		13F4644213A01007008D423C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F4644113A01007008D423C /* CoreGraphics.framework */; };
@@ -15,8 +16,6 @@
 		13F4644E13A01007008D423C /* NavAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F4644D13A01007008D423C /* NavAppDelegate.m */; };
 		13F4645213A01007008D423C /* NavAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F4645113A01007008D423C /* NavAppDelegate_iPhone.m */; };
 		13F4645513A01007008D423C /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13F4645313A01007008D423C /* MainWindow_iPhone.xib */; };
-		13F4645913A01007008D423C /* NavAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F4645813A01007008D423C /* NavAppDelegate_iPad.m */; };
-		13F4645C13A01007008D423C /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13F4645A13A01007008D423C /* MainWindow_iPad.xib */; };
 		13F4646313A01007008D423C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F4643D13A01007008D423C /* UIKit.framework */; };
 		13F4646413A01007008D423C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F4643F13A01007008D423C /* Foundation.framework */; };
 		13F4646513A01007008D423C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F4644113A01007008D423C /* CoreGraphics.framework */; };
@@ -36,6 +35,11 @@
 		13F4649C13A020EB008D423C /* DisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F4649A13A020EB008D423C /* DisclosureButtonController.m */; };
 		13F464A313A0214B008D423C /* DisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F464A113A0214B008D423C /* DisclosureDetailController.m */; };
 		13F464A413A0214B008D423C /* DisclosureDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13F464A213A0214B008D423C /* DisclosureDetailController.xib */; };
+		13F464A813A032EA008D423C /* ChecklistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F464A713A032EA008D423C /* ChecklistController.m */; };
+		13F464AC13A037D9008D423C /* RowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F464AB13A037D9008D423C /* RowControlsController.m */; };
+		13F464B913A03849008D423C /* SectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F464B713A03849008D423C /* SectionsViewController.m */; };
+		13F464BA13A03849008D423C /* SectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13F464B813A03849008D423C /* SectionsViewController.xib */; };
+		13F464BD13A0384E008D423C /* NSDictionary-MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F464BC13A0384E008D423C /* NSDictionary-MutableDeepCopy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1305A51013A03FC0009C3DCF /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
 		13F4643913A01007008D423C /* Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F4643D13A01007008D423C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13F4643F13A01007008D423C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +67,6 @@
 		13F4645013A01007008D423C /* NavAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NavAppDelegate_iPhone.h; path = iPhone/NavAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		13F4645113A01007008D423C /* NavAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NavAppDelegate_iPhone.m; path = iPhone/NavAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		13F4645413A01007008D423C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		13F4645713A01007008D423C /* NavAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NavAppDelegate_iPad.h; path = iPad/NavAppDelegate_iPad.h; sourceTree = "<group>"; };
-		13F4645813A01007008D423C /* NavAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NavAppDelegate_iPad.m; path = iPad/NavAppDelegate_iPad.m; sourceTree = "<group>"; };
-		13F4645B13A01007008D423C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		13F4646213A01007008D423C /* NavTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F4646A13A01007008D423C /* NavTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavTests-Info.plist"; sourceTree = "<group>"; };
 		13F4646C13A01007008D423C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -88,6 +90,15 @@
 		13F464A013A0214B008D423C /* DisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureDetailController.h; sourceTree = "<group>"; };
 		13F464A113A0214B008D423C /* DisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureDetailController.m; sourceTree = "<group>"; };
 		13F464A213A0214B008D423C /* DisclosureDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisclosureDetailController.xib; sourceTree = "<group>"; };
+		13F464A613A032EA008D423C /* ChecklistController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChecklistController.h; sourceTree = "<group>"; };
+		13F464A713A032EA008D423C /* ChecklistController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChecklistController.m; sourceTree = "<group>"; };
+		13F464AA13A037D9008D423C /* RowControlsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowControlsController.h; sourceTree = "<group>"; };
+		13F464AB13A037D9008D423C /* RowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowControlsController.m; sourceTree = "<group>"; };
+		13F464B613A03849008D423C /* SectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionsViewController.h; sourceTree = "<group>"; };
+		13F464B713A03849008D423C /* SectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionsViewController.m; sourceTree = "<group>"; };
+		13F464B813A03849008D423C /* SectionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionsViewController.xib; sourceTree = "<group>"; };
+		13F464BB13A0384E008D423C /* NSDictionary-MutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary-MutableDeepCopy.h"; sourceTree = "<group>"; };
+		13F464BC13A0384E008D423C /* NSDictionary-MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary-MutableDeepCopy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +160,6 @@
 				13F4644C13A01007008D423C /* NavAppDelegate.h */,
 				13F4644D13A01007008D423C /* NavAppDelegate.m */,
 				13F4644F13A01007008D423C /* iPhone */,
-				13F4645613A01007008D423C /* iPad */,
 				13F4644413A01007008D423C /* Supporting Files */,
 			);
 			path = Nav;
@@ -176,16 +186,6 @@
 			name = iPhone;
 			sourceTree = "<group>";
 		};
-		13F4645613A01007008D423C /* iPad */ = {
-			isa = PBXGroup;
-			children = (
-				13F4645713A01007008D423C /* NavAppDelegate_iPad.h */,
-				13F4645813A01007008D423C /* NavAppDelegate_iPad.m */,
-				13F4645A13A01007008D423C /* MainWindow_iPad.xib */,
-			);
-			name = iPad;
-			sourceTree = "<group>";
-		};
 		13F4646813A01007008D423C /* NavTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +209,9 @@
 		13F4647B13A0104A008D423C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				13F464B513A0383B008D423C /* SearchSections */,
+				13F464A913A037BB008D423C /* RowControls */,
+				13F464A513A032D5008D423C /* Checklist */,
 				13F4649F13A02124008D423C /* DisclosureBar */,
 				13F4649E13A02115008D423C /* RootLevel */,
 			);
@@ -261,6 +264,37 @@
 				13F464A213A0214B008D423C /* DisclosureDetailController.xib */,
 			);
 			name = DisclosureBar;
+			sourceTree = "<group>";
+		};
+		13F464A513A032D5008D423C /* Checklist */ = {
+			isa = PBXGroup;
+			children = (
+				13F464A613A032EA008D423C /* ChecklistController.h */,
+				13F464A713A032EA008D423C /* ChecklistController.m */,
+			);
+			name = Checklist;
+			sourceTree = "<group>";
+		};
+		13F464A913A037BB008D423C /* RowControls */ = {
+			isa = PBXGroup;
+			children = (
+				13F464AA13A037D9008D423C /* RowControlsController.h */,
+				13F464AB13A037D9008D423C /* RowControlsController.m */,
+			);
+			name = RowControls;
+			sourceTree = "<group>";
+		};
+		13F464B513A0383B008D423C /* SearchSections */ = {
+			isa = PBXGroup;
+			children = (
+				1305A51013A03FC0009C3DCF /* sortednames.plist */,
+				13F464BB13A0384E008D423C /* NSDictionary-MutableDeepCopy.h */,
+				13F464BC13A0384E008D423C /* NSDictionary-MutableDeepCopy.m */,
+				13F464B613A03849008D423C /* SectionsViewController.h */,
+				13F464B713A03849008D423C /* SectionsViewController.m */,
+				13F464B813A03849008D423C /* SectionsViewController.xib */,
+			);
+			name = SearchSections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,7 +369,6 @@
 			files = (
 				13F4644813A01007008D423C /* InfoPlist.strings in Resources */,
 				13F4645513A01007008D423C /* MainWindow_iPhone.xib in Resources */,
-				13F4645C13A01007008D423C /* MainWindow_iPad.xib in Resources */,
 				13F4649113A02082008D423C /* button_down.png in Resources */,
 				13F4649213A02082008D423C /* button_up.png in Resources */,
 				13F4649313A02082008D423C /* checkmarkControllerIcon.png in Resources */,
@@ -345,6 +378,8 @@
 				13F4649713A02082008D423C /* moveMeIcon.png in Resources */,
 				13F4649813A02082008D423C /* rowControlsIcon.png in Resources */,
 				13F464A413A0214B008D423C /* DisclosureDetailController.xib in Resources */,
+				13F464BA13A03849008D423C /* SectionsViewController.xib in Resources */,
+				1305A51113A03FC0009C3DCF /* sortednames.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,11 +418,14 @@
 				13F4644B13A01007008D423C /* main.m in Sources */,
 				13F4644E13A01007008D423C /* NavAppDelegate.m in Sources */,
 				13F4645213A01007008D423C /* NavAppDelegate_iPhone.m in Sources */,
-				13F4645913A01007008D423C /* NavAppDelegate_iPad.m in Sources */,
 				13F4648413A0112E008D423C /* RootViewController.m in Sources */,
 				13F4648713A0150E008D423C /* SecondLevelViewController.m in Sources */,
 				13F4649C13A020EB008D423C /* DisclosureButtonController.m in Sources */,
 				13F464A313A0214B008D423C /* DisclosureDetailController.m in Sources */,
+				13F464A813A032EA008D423C /* ChecklistController.m in Sources */,
+				13F464AC13A037D9008D423C /* RowControlsController.m in Sources */,
+				13F464B913A03849008D423C /* SectionsViewController.m in Sources */,
+				13F464BD13A0384E008D423C /* NSDictionary-MutableDeepCopy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,14 +464,6 @@
 			name = MainWindow_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		13F4645A13A01007008D423C /* MainWindow_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13F4645B13A01007008D423C /* en */,
-			);
-			name = MainWindow_iPad.xib;
-			sourceTree = "<group>";
-		};
 		13F4646B13A01007008D423C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -459,7 +489,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				STRIP_INSTALLED_PRODUCT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -475,7 +506,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				STRIP_INSTALLED_PRODUCT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -488,7 +520,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nav/Nav-Prefix.pch";
 				INFOPLIST_FILE = "Nav/Nav-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -501,7 +535,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nav/Nav-Prefix.pch";
 				INFOPLIST_FILE = "Nav/Nav-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -570,6 +606,7 @@
 				13F4647713A01007008D423C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13F4647813A01007008D423C /* Build configuration list for PBXNativeTarget "NavTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +615,7 @@
 				13F4647A13A01007008D423C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
