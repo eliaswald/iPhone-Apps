@@ -16,6 +16,7 @@
 		134C3A3513A2A1EA00B9C240 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134C3A3313A2A1EA00B9C240 /* MainWindow.xib */; };
 		134C3A3813A2A1EA00B9C240 /* PersistenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134C3A3713A2A1EA00B9C240 /* PersistenceViewController.m */; };
 		134C3A3B13A2A1EA00B9C240 /* PersistenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134C3A3913A2A1EA00B9C240 /* PersistenceViewController.xib */; };
+		134C3A4D13A2C38500B9C240 /* FourLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 134C3A4C13A2C38500B9C240 /* FourLines.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		134C3A3613A2A1EA00B9C240 /* PersistenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceViewController.h; sourceTree = "<group>"; };
 		134C3A3713A2A1EA00B9C240 /* PersistenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceViewController.m; sourceTree = "<group>"; };
 		134C3A3A13A2A1EA00B9C240 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PersistenceViewController.xib; sourceTree = "<group>"; };
+		134C3A4B13A2C38500B9C240 /* FourLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourLines.h; sourceTree = "<group>"; };
+		134C3A4C13A2C38500B9C240 /* FourLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourLines.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				134C3A3113A2A1EA00B9C240 /* PersistenceAppDelegate.m */,
 				134C3A3613A2A1EA00B9C240 /* PersistenceViewController.h */,
 				134C3A3713A2A1EA00B9C240 /* PersistenceViewController.m */,
+				134C3A4B13A2C38500B9C240 /* FourLines.h */,
+				134C3A4C13A2C38500B9C240 /* FourLines.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 				134C3A2F13A2A1EA00B9C240 /* main.m in Sources */,
 				134C3A3213A2A1EA00B9C240 /* PersistenceAppDelegate.m in Sources */,
 				134C3A3813A2A1EA00B9C240 /* PersistenceViewController.m in Sources */,
+				134C3A4D13A2C38500B9C240 /* FourLines.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
