@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		134C3A2213A2A1EA00B9C240 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134C3A2113A2A1EA00B9C240 /* UIKit.framework */; };
+		134C3A2413A2A1EA00B9C240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134C3A2313A2A1EA00B9C240 /* Foundation.framework */; };
+		134C3A2613A2A1EA00B9C240 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134C3A2513A2A1EA00B9C240 /* CoreGraphics.framework */; };
+		134C3A2C13A2A1EA00B9C240 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 134C3A2A13A2A1EA00B9C240 /* InfoPlist.strings */; };
+		134C3A2F13A2A1EA00B9C240 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 134C3A2E13A2A1EA00B9C240 /* main.m */; };
+		134C3A3213A2A1EA00B9C240 /* PersistenceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 134C3A3113A2A1EA00B9C240 /* PersistenceAppDelegate.m */; };
+		134C3A3513A2A1EA00B9C240 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134C3A3313A2A1EA00B9C240 /* MainWindow.xib */; };
+		134C3A3813A2A1EA00B9C240 /* PersistenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134C3A3713A2A1EA00B9C240 /* PersistenceViewController.m */; };
+		134C3A3B13A2A1EA00B9C240 /* PersistenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134C3A3913A2A1EA00B9C240 /* PersistenceViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		134C3A1D13A2A1E900B9C240 /* Persistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		134C3A2113A2A1EA00B9C240 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		134C3A2313A2A1EA00B9C240 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		134C3A2513A2A1EA00B9C240 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		134C3A2913A2A1EA00B9C240 /* Persistence-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Persistence-Info.plist"; sourceTree = "<group>"; };
+		134C3A2B13A2A1EA00B9C240 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		134C3A2D13A2A1EA00B9C240 /* Persistence-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Persistence-Prefix.pch"; sourceTree = "<group>"; };
+		134C3A2E13A2A1EA00B9C240 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		134C3A3013A2A1EA00B9C240 /* PersistenceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceAppDelegate.h; sourceTree = "<group>"; };
+		134C3A3113A2A1EA00B9C240 /* PersistenceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceAppDelegate.m; sourceTree = "<group>"; };
+		134C3A3413A2A1EA00B9C240 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		134C3A3613A2A1EA00B9C240 /* PersistenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceViewController.h; sourceTree = "<group>"; };
+		134C3A3713A2A1EA00B9C240 /* PersistenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceViewController.m; sourceTree = "<group>"; };
+		134C3A3A13A2A1EA00B9C240 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PersistenceViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		134C3A1A13A2A1E900B9C240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134C3A2213A2A1EA00B9C240 /* UIKit.framework in Frameworks */,
+				134C3A2413A2A1EA00B9C240 /* Foundation.framework in Frameworks */,
+				134C3A2613A2A1EA00B9C240 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134C3A1213A2A1E900B9C240 = {
+			isa = PBXGroup;
+			children = (
+				134C3A2713A2A1EA00B9C240 /* Persistence */,
+				134C3A2013A2A1EA00B9C240 /* Frameworks */,
+				134C3A1E13A2A1E900B9C240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		134C3A1E13A2A1E900B9C240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134C3A1D13A2A1E900B9C240 /* Persistence.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		134C3A2013A2A1EA00B9C240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				134C3A2113A2A1EA00B9C240 /* UIKit.framework */,
+				134C3A2313A2A1EA00B9C240 /* Foundation.framework */,
+				134C3A2513A2A1EA00B9C240 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		134C3A2713A2A1EA00B9C240 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				134C3A4213A2A1F900B9C240 /* GUI */,
+				134C3A4113A2A1F400B9C240 /* Classes */,
+				134C3A2813A2A1EA00B9C240 /* Supporting Files */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		134C3A2813A2A1EA00B9C240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				134C3A2913A2A1EA00B9C240 /* Persistence-Info.plist */,
+				134C3A2A13A2A1EA00B9C240 /* InfoPlist.strings */,
+				134C3A2D13A2A1EA00B9C240 /* Persistence-Prefix.pch */,
+				134C3A2E13A2A1EA00B9C240 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		134C3A4113A2A1F400B9C240 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				134C3A3013A2A1EA00B9C240 /* PersistenceAppDelegate.h */,
+				134C3A3113A2A1EA00B9C240 /* PersistenceAppDelegate.m */,
+				134C3A3613A2A1EA00B9C240 /* PersistenceViewController.h */,
+				134C3A3713A2A1EA00B9C240 /* PersistenceViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		134C3A4213A2A1F900B9C240 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				134C3A3913A2A1EA00B9C240 /* PersistenceViewController.xib */,
+				134C3A3313A2A1EA00B9C240 /* MainWindow.xib */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		134C3A1C13A2A1E900B9C240 /* Persistence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134C3A3E13A2A1EA00B9C240 /* Build configuration list for PBXNativeTarget "Persistence" */;
+			buildPhases = (
+				134C3A1913A2A1E900B9C240 /* Sources */,
+				134C3A1A13A2A1E900B9C240 /* Frameworks */,
+				134C3A1B13A2A1E900B9C240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Persistence;
+			productName = Persistence;
+			productReference = 134C3A1D13A2A1E900B9C240 /* Persistence.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		134C3A1413A2A1E900B9C240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Brown University";
+			};
+			buildConfigurationList = 134C3A1713A2A1E900B9C240 /* Build configuration list for PBXProject "Persistence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 134C3A1213A2A1E900B9C240;
+			productRefGroup = 134C3A1E13A2A1E900B9C240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				134C3A1C13A2A1E900B9C240 /* Persistence */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		134C3A1B13A2A1E900B9C240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134C3A2C13A2A1EA00B9C240 /* InfoPlist.strings in Resources */,
+				134C3A3513A2A1EA00B9C240 /* MainWindow.xib in Resources */,
+				134C3A3B13A2A1EA00B9C240 /* PersistenceViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		134C3A1913A2A1E900B9C240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134C3A2F13A2A1EA00B9C240 /* main.m in Sources */,
+				134C3A3213A2A1EA00B9C240 /* PersistenceAppDelegate.m in Sources */,
+				134C3A3813A2A1EA00B9C240 /* PersistenceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		134C3A2A13A2A1EA00B9C240 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134C3A2B13A2A1EA00B9C240 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		134C3A3313A2A1EA00B9C240 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134C3A3413A2A1EA00B9C240 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		134C3A3913A2A1EA00B9C240 /* PersistenceViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134C3A3A13A2A1EA00B9C240 /* en */,
+			);
+			name = PersistenceViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		134C3A3C13A2A1EA00B9C240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		134C3A3D13A2A1EA00B9C240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		134C3A3F13A2A1EA00B9C240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Persistence/Persistence-Prefix.pch";
+				INFOPLIST_FILE = "Persistence/Persistence-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		134C3A4013A2A1EA00B9C240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Persistence/Persistence-Prefix.pch";
+				INFOPLIST_FILE = "Persistence/Persistence-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		134C3A1713A2A1E900B9C240 /* Build configuration list for PBXProject "Persistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134C3A3C13A2A1EA00B9C240 /* Debug */,
+				134C3A3D13A2A1EA00B9C240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		134C3A3E13A2A1EA00B9C240 /* Build configuration list for PBXNativeTarget "Persistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134C3A3F13A2A1EA00B9C240 /* Debug */,
+				134C3A4013A2A1EA00B9C240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 134C3A1413A2A1E900B9C240 /* Project object */;
+}
