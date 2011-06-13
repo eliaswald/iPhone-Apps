@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		134C3AD113A2DCBC00B9C240 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134C3AD013A2DCBC00B9C240 /* UIKit.framework */; };
+		134C3AD313A2DCBC00B9C240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134C3AD213A2DCBC00B9C240 /* Foundation.framework */; };
+		134C3AD513A2DCBC00B9C240 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134C3AD413A2DCBC00B9C240 /* CoreGraphics.framework */; };
+		134C3ADB13A2DCBC00B9C240 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 134C3AD913A2DCBC00B9C240 /* InfoPlist.strings */; };
+		134C3ADE13A2DCBC00B9C240 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 134C3ADD13A2DCBC00B9C240 /* main.m */; };
+		134C3AE113A2DCBC00B9C240 /* Periscope_v1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 134C3AE013A2DCBC00B9C240 /* Periscope_v1AppDelegate.m */; };
+		134C3AE413A2DCBC00B9C240 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134C3AE213A2DCBC00B9C240 /* MainWindow.xib */; };
+		134C3AE713A2DCBC00B9C240 /* Periscope_v1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134C3AE613A2DCBC00B9C240 /* Periscope_v1ViewController.m */; };
+		134C3AEA13A2DCBC00B9C240 /* Periscope_v1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134C3AE813A2DCBC00B9C240 /* Periscope_v1ViewController.xib */; };
+		13BFCC4E13A2E11C005835C4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BFCC4D13A2E11C005835C4 /* CoreLocation.framework */; };
+		13BFCC5013A2E131005835C4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BFCC4F13A2E131005835C4 /* MapKit.framework */; };
+		13E50F6213A6888B00C638A4 /* 74-location.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E50F6113A6888B00C638A4 /* 74-location.png */; };
+		13E50F6413A688A100C638A4 /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E50F6313A688A100C638A4 /* 19-gear.png */; };
+		13E50F6613A688BA00C638A4 /* 12-eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E50F6513A688BA00C638A4 /* 12-eye.png */; };
+		13E50F6813A68AC300C638A4 /* 112-group.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E50F6713A68AC300C638A4 /* 112-group.png */; };
+		13E50F6B13A68B8E00C638A4 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E50F6A13A68B8E00C638A4 /* SettingsViewController.m */; };
+		13E50F6D13A68C4C00C638A4 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13E50F6C13A68C4C00C638A4 /* SettingsView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		134C3ACC13A2DCBC00B9C240 /* Periscope-v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Periscope-v1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		134C3AD013A2DCBC00B9C240 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		134C3AD213A2DCBC00B9C240 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		134C3AD413A2DCBC00B9C240 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		134C3AD813A2DCBC00B9C240 /* Periscope-v1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Periscope-v1-Info.plist"; sourceTree = "<group>"; };
+		134C3ADA13A2DCBC00B9C240 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		134C3ADC13A2DCBC00B9C240 /* Periscope-v1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Periscope-v1-Prefix.pch"; sourceTree = "<group>"; };
+		134C3ADD13A2DCBC00B9C240 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		134C3ADF13A2DCBC00B9C240 /* Periscope_v1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Periscope_v1AppDelegate.h; sourceTree = "<group>"; };
+		134C3AE013A2DCBC00B9C240 /* Periscope_v1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Periscope_v1AppDelegate.m; sourceTree = "<group>"; };
+		134C3AE313A2DCBC00B9C240 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		134C3AE513A2DCBC00B9C240 /* Periscope_v1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Periscope_v1ViewController.h; sourceTree = "<group>"; };
+		134C3AE613A2DCBC00B9C240 /* Periscope_v1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Periscope_v1ViewController.m; sourceTree = "<group>"; };
+		134C3AE913A2DCBC00B9C240 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Periscope_v1ViewController.xib; sourceTree = "<group>"; };
+		13BFCC4D13A2E11C005835C4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		13BFCC4F13A2E131005835C4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		13E50F6113A6888B00C638A4 /* 74-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "74-location.png"; sourceTree = "<group>"; };
+		13E50F6313A688A100C638A4 /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear.png"; sourceTree = "<group>"; };
+		13E50F6513A688BA00C638A4 /* 12-eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12-eye.png"; sourceTree = "<group>"; };
+		13E50F6713A68AC300C638A4 /* 112-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "112-group.png"; sourceTree = "<group>"; };
+		13E50F6913A68B8E00C638A4 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		13E50F6A13A68B8E00C638A4 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		13E50F6C13A68C4C00C638A4 /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		134C3AC913A2DCBC00B9C240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134C3AD113A2DCBC00B9C240 /* UIKit.framework in Frameworks */,
+				134C3AD313A2DCBC00B9C240 /* Foundation.framework in Frameworks */,
+				134C3AD513A2DCBC00B9C240 /* CoreGraphics.framework in Frameworks */,
+				13BFCC4E13A2E11C005835C4 /* CoreLocation.framework in Frameworks */,
+				13BFCC5013A2E131005835C4 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134C3AC113A2DCBC00B9C240 = {
+			isa = PBXGroup;
+			children = (
+				134C3AD613A2DCBC00B9C240 /* Periscope-v1 */,
+				134C3ACF13A2DCBC00B9C240 /* Frameworks */,
+				134C3ACD13A2DCBC00B9C240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		134C3ACD13A2DCBC00B9C240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134C3ACC13A2DCBC00B9C240 /* Periscope-v1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		134C3ACF13A2DCBC00B9C240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13BFCC4F13A2E131005835C4 /* MapKit.framework */,
+				13BFCC4D13A2E11C005835C4 /* CoreLocation.framework */,
+				134C3AD013A2DCBC00B9C240 /* UIKit.framework */,
+				134C3AD213A2DCBC00B9C240 /* Foundation.framework */,
+				134C3AD413A2DCBC00B9C240 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		134C3AD613A2DCBC00B9C240 /* Periscope-v1 */ = {
+			isa = PBXGroup;
+			children = (
+				13E50F5F13A6886200C638A4 /* Resources */,
+				13BFCC4913A2DD36005835C4 /* GUI */,
+				13BFCC4813A2DD30005835C4 /* Classes */,
+				134C3AD713A2DCBC00B9C240 /* Supporting Files */,
+			);
+			path = "Periscope-v1";
+			sourceTree = "<group>";
+		};
+		134C3AD713A2DCBC00B9C240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				134C3AD813A2DCBC00B9C240 /* Periscope-v1-Info.plist */,
+				134C3AD913A2DCBC00B9C240 /* InfoPlist.strings */,
+				134C3ADC13A2DCBC00B9C240 /* Periscope-v1-Prefix.pch */,
+				134C3ADD13A2DCBC00B9C240 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13BFCC4813A2DD30005835C4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				134C3ADF13A2DCBC00B9C240 /* Periscope_v1AppDelegate.h */,
+				134C3AE013A2DCBC00B9C240 /* Periscope_v1AppDelegate.m */,
+				134C3AE513A2DCBC00B9C240 /* Periscope_v1ViewController.h */,
+				134C3AE613A2DCBC00B9C240 /* Periscope_v1ViewController.m */,
+				13E50F6913A68B8E00C638A4 /* SettingsViewController.h */,
+				13E50F6A13A68B8E00C638A4 /* SettingsViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		13BFCC4913A2DD36005835C4 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				134C3AE213A2DCBC00B9C240 /* MainWindow.xib */,
+				134C3AE813A2DCBC00B9C240 /* Periscope_v1ViewController.xib */,
+				13E50F6C13A68C4C00C638A4 /* SettingsView.xib */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		13E50F5F13A6886200C638A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13E50F6713A68AC300C638A4 /* 112-group.png */,
+				13E50F6513A688BA00C638A4 /* 12-eye.png */,
+				13E50F6313A688A100C638A4 /* 19-gear.png */,
+				13E50F6113A6888B00C638A4 /* 74-location.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		134C3ACB13A2DCBC00B9C240 /* Periscope-v1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134C3AED13A2DCBC00B9C240 /* Build configuration list for PBXNativeTarget "Periscope-v1" */;
+			buildPhases = (
+				134C3AC813A2DCBC00B9C240 /* Sources */,
+				134C3AC913A2DCBC00B9C240 /* Frameworks */,
+				134C3ACA13A2DCBC00B9C240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Periscope-v1";
+			productName = "Periscope-v1";
+			productReference = 134C3ACC13A2DCBC00B9C240 /* Periscope-v1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		134C3AC313A2DCBC00B9C240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Brown University";
+			};
+			buildConfigurationList = 134C3AC613A2DCBC00B9C240 /* Build configuration list for PBXProject "Periscope-v1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 134C3AC113A2DCBC00B9C240;
+			productRefGroup = 134C3ACD13A2DCBC00B9C240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				134C3ACB13A2DCBC00B9C240 /* Periscope-v1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		134C3ACA13A2DCBC00B9C240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134C3ADB13A2DCBC00B9C240 /* InfoPlist.strings in Resources */,
+				134C3AE413A2DCBC00B9C240 /* MainWindow.xib in Resources */,
+				134C3AEA13A2DCBC00B9C240 /* Periscope_v1ViewController.xib in Resources */,
+				13E50F6213A6888B00C638A4 /* 74-location.png in Resources */,
+				13E50F6413A688A100C638A4 /* 19-gear.png in Resources */,
+				13E50F6613A688BA00C638A4 /* 12-eye.png in Resources */,
+				13E50F6813A68AC300C638A4 /* 112-group.png in Resources */,
+				13E50F6D13A68C4C00C638A4 /* SettingsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		134C3AC813A2DCBC00B9C240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134C3ADE13A2DCBC00B9C240 /* main.m in Sources */,
+				134C3AE113A2DCBC00B9C240 /* Periscope_v1AppDelegate.m in Sources */,
+				134C3AE713A2DCBC00B9C240 /* Periscope_v1ViewController.m in Sources */,
+				13E50F6B13A68B8E00C638A4 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		134C3AD913A2DCBC00B9C240 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134C3ADA13A2DCBC00B9C240 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		134C3AE213A2DCBC00B9C240 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134C3AE313A2DCBC00B9C240 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		134C3AE813A2DCBC00B9C240 /* Periscope_v1ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134C3AE913A2DCBC00B9C240 /* en */,
+			);
+			name = Periscope_v1ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		134C3AEB13A2DCBC00B9C240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		134C3AEC13A2DCBC00B9C240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		134C3AEE13A2DCBC00B9C240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Periscope-v1/Periscope-v1-Prefix.pch";
+				INFOPLIST_FILE = "Periscope-v1/Periscope-v1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		134C3AEF13A2DCBC00B9C240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Periscope-v1/Periscope-v1-Prefix.pch";
+				INFOPLIST_FILE = "Periscope-v1/Periscope-v1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		134C3AC613A2DCBC00B9C240 /* Build configuration list for PBXProject "Periscope-v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134C3AEB13A2DCBC00B9C240 /* Debug */,
+				134C3AEC13A2DCBC00B9C240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		134C3AED13A2DCBC00B9C240 /* Build configuration list for PBXNativeTarget "Periscope-v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134C3AEE13A2DCBC00B9C240 /* Debug */,
+				134C3AEF13A2DCBC00B9C240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 134C3AC313A2DCBC00B9C240 /* Project object */;
+}
