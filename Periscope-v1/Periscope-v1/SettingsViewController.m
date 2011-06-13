@@ -7,10 +7,11 @@
 //
 
 #import "SettingsViewController.h"
+#import "Periscope_v1ViewController.h"
 
 
 @implementation SettingsViewController
-@synthesize signUpTable, signInTable, saveButton, cancelButton, backgroundButton, fieldLabels, textFieldBeingEdited, navigationBar;
+@synthesize signUpTable, signInTable, saveButton, cancelButton, signUpLabels, textFieldBeingEdited, navigationBar, signInLabels;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,7 +24,7 @@
 
 - (void)dealloc
 {
-    [fieldLabels release];
+    [signUpLabels release];
     [textFieldBeingEdited release];
     [super dealloc];
 }
@@ -36,15 +37,25 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-#pragma mark - Background Button
-- (IBAction)backgroundClick:(id)sender
+#pragma mark - Sign-in Button Methods
+- (IBAction)signIn
 {
-    if (textFieldBeingEdited == nil)
-        [self.view removeFromSuperview];
-    else{
-        [textFieldBeingEdited resignFirstResponder];
-        textFieldBeingEdited = nil;
-    }
+    [self.view insertSubview:signInTable aboveSubview:signUpTable];
+    [textFieldBeingEdited resignFirstResponder];
+    textFieldBeingEdited = nil;
+    Periscope_v1ViewController *parentController = (Periscope_v1ViewController *)self.parentViewController;
+    navigationBar.frame = CGRectMake(0, 210, 624, 44);
+    signUpTable.hidden = YES;
+    [parentController resizeSettingsOnSignIn];
+}
+- (IBAction)signUp
+{
+    signUpTable.hidden = NO;
+    navigationBar.frame = CGRectMake(0, 298, 624, 44);
+    [self.view insertSubview:signUpTable aboveSubview:signInTable];
+    [textFieldBeingEdited resignFirstResponder];
+    Periscope_v1ViewController *parentController = (Periscope_v1ViewController *)self.parentViewController;
+    [parentController resizeSettingsOnSignUp];
 }
 
 #pragma mark - Navigation Bar Button Methods
@@ -71,10 +82,14 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
-    NSArray *array = [[NSArray alloc] initWithObjects:@"First Name:", @"Last Name:", @"Email:", @"Password:", nil];
-    self.fieldLabels = array;
-    [array release];
     
+    NSArray *arraySignIn = [[NSArray alloc] initWithObjects:@"Email:", @"Password:", nil];
+    self.signInLabels = arraySignIn;
+    [arraySignIn release];
+    
+    NSArray *array = [[NSArray alloc] initWithObjects:@"First Name:", @"Last Name:", @"Email:", @"Password:", nil];
+    self.signUpLabels = array;
+    [array release];
     
     [super viewDidLoad];
 }
@@ -96,60 +111,124 @@
 #pragma mark - Table Datasource Methods
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 4;
+    if(tableView == signInTable)
+        return 2;
+    else
+        return 4;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *SettingsCellIdentifier = @"SettingsCellIdentifier";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SettingsCellIdentifier];
-    if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SettingsCellIdentifier] autorelease];
-        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 90, 25)];
-        label.textAlignment = UITextAlignmentRight;
-        label.tag = 4096;
-        label.font = [UIFont boldSystemFontOfSize:14];
-        [cell.contentView addSubview:label];
-        [label release];
+    //If the table requesting cell is the sign-up table:
+    if(tableView == signUpTable){
+        static NSString *SettingsCellIdentifier = @"SettingsCellIdentifier";
         
-        UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(105, 12, 200, 25)];
-        textField.clearsOnBeginEditing = NO;
-        [textField setDelegate:self];
-        textField.returnKeyType = UIReturnKeyDone;
-        [textField addTarget:self action:@selector(textFieldDidEndEditing:) forControlEvents:UIControlEventEditingDidEndOnExit];
-        [cell.contentView addSubview:textField];
-    }
-    NSUInteger row = [indexPath row];
-    
-    UILabel *label = (UILabel *)[cell viewWithTag:4096];
-    UITextField *textField = nil;
-    for (UIView *oneView in cell.contentView.subviews) {
-        if ([oneView isMemberOfClass:[UITextField class]])
-            textField = (UITextField *)oneView;
-    }
-    label.text = [fieldLabels objectAtIndex:row];
-    NSNumber *rowAsNum = [[NSNumber alloc] initWithInt:row];
+        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SettingsCellIdentifier];
+        if (cell == nil) {
+            cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SettingsCellIdentifier] autorelease];
+            UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 90, 25)];
+            label.textAlignment = UITextAlignmentRight;
+            label.tag = 4096;
+            label.font = [UIFont boldSystemFontOfSize:14];
+            [cell.contentView addSubview:label];
+            [label release];
+            
+            UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(105, 12, 200, 25)];
+            textField.clearsOnBeginEditing = NO;
+            [textField setDelegate:self];
+            textField.returnKeyType = UIReturnKeyDone;
+            [textField addTarget:self action:@selector(textFieldDidEndEditing:) forControlEvents:UIControlEventEditingDidEndOnExit];
+            [cell.contentView addSubview:textField];
+        }
+        NSUInteger row = [indexPath row];
+        
+        UILabel *label = (UILabel *)[cell viewWithTag:4096];
+        UITextField *textField = nil;
+        for (UIView *oneView in cell.contentView.subviews) {
+            if ([oneView isMemberOfClass:[UITextField class]])
+                textField = (UITextField *)oneView;
+        }
+        label.text = [signUpLabels objectAtIndex:row];
+        label.textColor = [UIColor grayColor];
+        if (label.text == @"Password:")
+            textField.secureTextEntry = YES;
+        
+        NSNumber *rowAsNum = [[NSNumber alloc] initWithInt:row];
 #warning implement filling in default row values
-    switch (row) {
-    case 0:
-        break;
-    case 1:
-        break;
-    case 2:
-        break;
-    case 3:
-        break;
-    default:
-        break;
+        switch (row) {
+            case 0:
+                break;
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            default:
+                break;
+        }
+        
+        if (textFieldBeingEdited == textField)
+            textFieldBeingEdited = nil;
+        
+        textField.tag = row;
+        [rowAsNum release];
+        return cell;
     }
     
-    if (textFieldBeingEdited == textField)
-        textFieldBeingEdited = nil;
-    
-    textField.tag = row;
-    [rowAsNum release];
-    return cell;
+    //If the table requesting cells is the sign-in table:
+    else {
+        static NSString *SignInCellIdentifier = @"SignInCellIdentifier";
+        
+        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SignInCellIdentifier];
+        if (cell == nil) {
+            cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SignInCellIdentifier] autorelease];
+            UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 90, 25)];
+            label.textAlignment = UITextAlignmentRight;
+            label.tag = 4096;
+            label.font = [UIFont boldSystemFontOfSize:14];
+            [cell.contentView addSubview:label];
+            [label release];
+            
+            UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(105, 12, 200, 25)];
+            textField.clearsOnBeginEditing = NO;
+            [textField setDelegate:self];
+            textField.returnKeyType = UIReturnKeyDone;
+            [textField addTarget:self action:@selector(textFieldDidEndEditing:) forControlEvents:UIControlEventEditingDidEndOnExit];
+            [cell.contentView addSubview:textField];
+        }
+        NSUInteger row = [indexPath row];
+        
+        UILabel *label = (UILabel *)[cell viewWithTag:4096];
+        UITextField *textField = nil;
+        for (UIView *oneView in cell.contentView.subviews) {
+            if ([oneView isMemberOfClass:[UITextField class]])
+                textField = (UITextField *)oneView;
+        }
+        label.text = [signInLabels objectAtIndex:row];
+        label.textColor = [UIColor grayColor];
+        if (label.text == @"Password:")
+            textField.secureTextEntry = YES;
+        
+        NSNumber *rowAsNum = [[NSNumber alloc] initWithInt:row];
+#warning implement filling in default row values
+        switch (row) {
+            case 0:
+                break;
+            case 1:
+                break;
+            default:
+                break;
+        }
+        
+        if (textFieldBeingEdited == textField)
+            textFieldBeingEdited = nil;
+        
+        textField.tag = row;
+        [rowAsNum release];
+        return cell;
+    }
 }
 #pragma mark - Table Delegate Methods
 - (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath

@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import "SettingsViewController.h"
+#import "Constants.h"
 
 
 @interface Periscope_v1ViewController : UIViewController <MKMapViewDelegate, UIScrollViewDelegate, UITextViewDelegate> {
@@ -18,6 +19,7 @@
     IBOutlet UIScrollView *thumbnails;
     IBOutlet UITextView *description;
     SettingsViewController *settingsViewController;
+    IBOutlet UIView *settingsViewContainer;
     
 }
 @property (nonatomic, retain) MKMapView *map;
@@ -25,6 +27,7 @@
 @property (nonatomic, retain) UIScrollView *thumbnails;
 @property (nonatomic, retain) UITextView *description;
 @property (nonatomic, retain) SettingsViewController *settingsViewController;
+@property (nonatomic, retain) UIView *settingsViewContainer;
 
 - (IBAction)popularFilterPressed:(id)sender;
 - (IBAction)haveBeenFilterPressed:(id)sender;
@@ -35,5 +38,8 @@
 - (IBAction)settingsButtonPressed:(id)sender;
 - (IBAction)friendsButtonPressed:(id)sender;
 - (IBAction)locateMeButtonPressed:(id)sender;
+- (IBAction)backgroundClick;
+- (void)resizeSettingsOnSignIn;
+- (void)resizeSettingsOnSignUp;
 
 @end

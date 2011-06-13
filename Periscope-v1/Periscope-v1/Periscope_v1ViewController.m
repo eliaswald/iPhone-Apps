@@ -9,7 +9,7 @@
 #import "Periscope_v1ViewController.h"
 
 @implementation Periscope_v1ViewController
-@synthesize map, mainImage, description, thumbnails, settingsViewController;
+@synthesize map, mainImage, description, thumbnails, settingsViewController, settingsViewContainer;
 
 - (void)dealloc
 {
@@ -23,6 +23,22 @@
     [super didReceiveMemoryWarning];
     
     // Release any cached data, images, etc that aren't in use.
+}
+
+#pragma mark - Background Button
+- (IBAction)backgroundClick
+{
+    if ([settingsViewContainer.subviews count] != 0){
+        if (settingsViewController.textFieldBeingEdited == nil){
+            [self.view exchangeSubviewAtIndex:1 withSubviewAtIndex:7];
+            [self.view exchangeSubviewAtIndex:0 withSubviewAtIndex:6];
+            [settingsViewController.view removeFromSuperview];
+        }
+        else{
+            [settingsViewController.textFieldBeingEdited resignFirstResponder];
+            settingsViewController.textFieldBeingEdited = nil;
+        }
+    }
 }
 
 #pragma mark - View lifecycle
@@ -49,6 +65,7 @@
 }
 
 #pragma mark - Navigation Bar Button Methods
+#pragma mark Settings Methods
 - (IBAction)settingsButtonPressed:(id)sender
 {
     if(settingsViewController == nil) {
@@ -57,12 +74,26 @@
         [settingsView release];
     }
     
-    if(settingsViewController.view.superview == nil) {
-        [self.view insertSubview:settingsViewController.view atIndex:8];
+    if([settingsViewContainer.subviews count] == 0) {
+        [self.settingsViewContainer insertSubview:settingsViewController.view atIndex:0];
+        [self.view exchangeSubviewAtIndex:1 withSubviewAtIndex:7];
+        [self.view exchangeSubviewAtIndex:0 withSubviewAtIndex:6];
     }
     else{
+        [self.view exchangeSubviewAtIndex:1 withSubviewAtIndex:7];
+        [self.view exchangeSubviewAtIndex:0 withSubviewAtIndex:6];
         [settingsViewController.view removeFromSuperview];
     }
+}
+
+- (void)resizeSettingsOnSignIn
+{
+    settingsViewContainer.frame = CGRectMake(72, 97, 624, 254);
+}
+
+- (void)resizeSettingsOnSignUp
+{
+    settingsViewContainer.frame = CGRectMake(72, 97, 624, 342);
 }
 
 - (IBAction)friendsButtonPressed:(id)sender
@@ -100,12 +131,47 @@
 #pragma mark - Tag Button Methods
 - (IBAction)beenHereButtonPressed:(id)sender
 {
+    if (!kSignedIn) {
+        if(settingsViewController == nil) {
+            SettingsViewController *settingsView = [[SettingsViewController alloc] initWithNibName:@"SettingsView" bundle:nil];
+            self.settingsViewController = settingsView;
+            [settingsView release];
+        }
+        
+        if([settingsViewContainer.subviews count] == 0) {
+            [self.settingsViewContainer insertSubview:settingsViewController.view atIndex:0];
+            [self.view exchangeSubviewAtIndex:1 withSubviewAtIndex:7];
+            [self.view exchangeSubviewAtIndex:0 withSubviewAtIndex:6];
+        }
+        else{
+            [self.view exchangeSubviewAtIndex:1 withSubviewAtIndex:7];
+            [self.view exchangeSubviewAtIndex:0 withSubviewAtIndex:6];
+            [settingsViewController.view removeFromSuperview];
+        }
+    }
     
 }
 
 - (IBAction)wantToGoButtonPressed:(id)sender
 {
-    
+    if (!kSignedIn) {
+        if(settingsViewController == nil) {
+            SettingsViewController *settingsView = [[SettingsViewController alloc] initWithNibName:@"SettingsView" bundle:nil];
+            self.settingsViewController = settingsView;
+            [settingsView release];
+        }
+        
+        if([settingsViewContainer.subviews count] == 0) {
+            [self.settingsViewContainer insertSubview:settingsViewController.view atIndex:0];
+            [self.view exchangeSubviewAtIndex:1 withSubviewAtIndex:7];
+            [self.view exchangeSubviewAtIndex:0 withSubviewAtIndex:6];
+        }
+        else{
+            [self.view exchangeSubviewAtIndex:1 withSubviewAtIndex:7];
+            [self.view exchangeSubviewAtIndex:0 withSubviewAtIndex:6];
+            [settingsViewController.view removeFromSuperview];
+        }
+    }
 }
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1343C77513A6D5B8008924D3 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1343C77413A6D5B8008924D3 /* Constants.m */; };
 		134C3AD113A2DCBC00B9C240 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134C3AD013A2DCBC00B9C240 /* UIKit.framework */; };
 		134C3AD313A2DCBC00B9C240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134C3AD213A2DCBC00B9C240 /* Foundation.framework */; };
 		134C3AD513A2DCBC00B9C240 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134C3AD413A2DCBC00B9C240 /* CoreGraphics.framework */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1343C77313A6D5B8008924D3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1343C77413A6D5B8008924D3 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		134C3ACC13A2DCBC00B9C240 /* Periscope-v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Periscope-v1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		134C3AD013A2DCBC00B9C240 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		134C3AD213A2DCBC00B9C240 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -128,6 +131,8 @@
 				134C3AE613A2DCBC00B9C240 /* Periscope_v1ViewController.m */,
 				13E50F6913A68B8E00C638A4 /* SettingsViewController.h */,
 				13E50F6A13A68B8E00C638A4 /* SettingsViewController.m */,
+				1343C77313A6D5B8008924D3 /* Constants.h */,
+				1343C77413A6D5B8008924D3 /* Constants.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 				134C3AE113A2DCBC00B9C240 /* Periscope_v1AppDelegate.m in Sources */,
 				134C3AE713A2DCBC00B9C240 /* Periscope_v1ViewController.m in Sources */,
 				13E50F6B13A68B8E00C638A4 /* SettingsViewController.m in Sources */,
+				1343C77513A6D5B8008924D3 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
