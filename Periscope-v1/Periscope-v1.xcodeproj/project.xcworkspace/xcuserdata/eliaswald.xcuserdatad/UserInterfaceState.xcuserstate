@@ -1443,7 +1443,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>54</integer>
+					<integer>14</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2399,10 +2399,10 @@
     s = 0;
 }</string>
 		</dict>
-		<real>329701606.03440797</real>
-		<string>{1398, 1658}</string>
-		<string>{4098, 0}</string>
-		<string>-wantToGoButtonPressed:</string>
+		<real>329704893.80244702</real>
+		<string>{2541, 1286}</string>
+		<string>{3486, 0}</string>
+		<string>-locateMeButtonPressed:</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
 			<key>$class</key>
@@ -2445,7 +2445,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {1208, 894}}</string>
+		<string>{{0, 0}, {1208, 757}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5268,9 +5268,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>329701137.15060502</real>
+		<real>329702910.39440298</real>
 		<string>{0, 1499}</string>
-		<string>{261, 0}</string>
+		<string>{330, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5411,7 +5411,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>329701547.61124903</real>
+		<real>329702499.379237</real>
 		<string>{0, 1180}</string>
 		<string>{390, 0}</string>
 		<dict>
@@ -5467,9 +5467,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>329701606.031703</real>
-		<string>{1398, 1658}</string>
-		<string>{4098, 0}</string>
+		<real>329704893.80007499</real>
+		<string>{2541, 1286}</string>
+		<string>{3486, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5935,8 +5935,8 @@
     s = 0;
 }</string>
 		</dict>
-		<real>329701120.89405799</real>
-		<string>{0, 1712}</string>
+		<real>329704670.82466298</real>
+		<string>{1862, 1530}</string>
 		<string>{7082, 0}</string>
 		<dict>
 			<key>$class</key>
@@ -6939,7 +6939,7 @@
 				</dict>
 			</array>
 		</dict>
-		<integer>122</integer>
+		<integer>104</integer>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -7812,7 +7812,7 @@
 				<integer>657</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>329701503.57797498</real>
+			<real>329704466.28686202</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -7823,7 +7823,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 4:45 PM</string>
+		<string>Today at 5:34 PM</string>
 		<integer>106</integer>
 		<dict>
 			<key>$class</key>
@@ -7995,7 +7995,7 @@
 				<integer>672</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/eliaswald/Documents/Xcode/Periscope-v1/Periscope-v1/SettingsViewController.h</string>
+		<string>file://localhost/Users/eliaswald/Documents/Xcode/Periscope-v1/Periscope-v1/SettingsViewController.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -8013,7 +8013,7 @@
 				<integer>674</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/eliaswald/Documents/Xcode/Periscope-v1/Periscope-v1/SettingsView.xib</string>
+		<string>file://localhost/Users/eliaswald/Documents/Xcode/Periscope-v1/Periscope-v1/en.lproj/Periscope_v1ViewController.xib</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -8031,7 +8031,7 @@
 				<integer>676</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/eliaswald/Documents/Xcode/Periscope-v1/Periscope-v1/en.lproj/Periscope_v1ViewController.xib</string>
+		<string>file://localhost/Users/eliaswald/Documents/Xcode/Periscope-v1/Periscope-v1/SettingsView.xib</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -8067,7 +8067,7 @@
 				<integer>680</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/eliaswald/Documents/Xcode/Periscope-v1/Periscope-v1/Constants.h</string>
+		<string>file://localhost/Users/eliaswald/Documents/Xcode/Periscope-v1/Periscope-v1/SettingsViewController.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -8085,7 +8085,7 @@
 				<integer>682</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/eliaswald/Documents/Xcode/Periscope-v1/Periscope-v1/SettingsViewController.m</string>
+		<string>file://localhost/Users/eliaswald/Documents/Xcode/Periscope-v1/Periscope-v1/Constants.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>

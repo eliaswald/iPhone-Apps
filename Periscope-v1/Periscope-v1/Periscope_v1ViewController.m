@@ -43,13 +43,18 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+    MKUserLocation *location = map.userLocation;
+    CLLocationCoordinate2D userCoord = location.location.coordinate;
+    MKCoordinateSpan span = MKCoordinateSpanMake(.1, .1);
+    [map setRegion:MKCoordinateRegionMake(userCoord, span) animated:YES];
+    map.zoomEnabled = YES;
     [super viewDidLoad];
 }
-*/
+
 
 - (void)viewDidUnload
 {
@@ -103,7 +108,13 @@
 
 - (IBAction)locateMeButtonPressed:(id)sender
 {
-    
+    MKUserLocation *location = map.userLocation;
+    CLLocationCoordinate2D userCoord = location.location.coordinate;
+    MKCoordinateSpan spanZoomOut = MKCoordinateSpanMake(1, 1);
+    MKCoordinateSpan spanZoomIn = MKCoordinateSpanMake(.1, .1);
+    while (location.updating)
+        [map setRegion:MKCoordinateRegionMake(userCoord, spanZoomOut) animated:YES];
+    [map setRegion:MKCoordinateRegionMake(userCoord, spanZoomIn) animated:YES];
 }
 
 
